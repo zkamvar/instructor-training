@@ -30,7 +30,7 @@ To prepare for our next session, please:
   When you arrive for the next part, we will ask you to add one question about our operations to a list.
   We will then do our best to answer all of those questions during the day.
 
-2. Prepare for the [live coding exercises](17-live/).
+2. Prepare for the [live coding exercises](https://carpentries.github.io/instructor-training/17-live.html).
   If you have not already done so per the pre-workshop instructions, pick an episode from an existing Software Carpentry,
   Data Carpentry, or Library Carpentry lesson and
   read through it carefully.
@@ -40,24 +40,24 @@ To prepare for our next session, please:
   
   - Data Carpentry
     
-    - [Faceting and Clustering in OpenRefine](https://datacarpentry.org/OpenRefine-ecology-lesson/02-exploring-data/index.html)
-    - [Basic Queries in SQL](https://datacarpentry.org/sql-ecology-lesson/01-sql-basic-queries/)
+    - [Faceting and Clustering in OpenRefine](https://datacarpentry.org/OpenRefine-ecology-lesson/02-exploring-data.html)
+    - [Basic Queries in SQL](https://datacarpentry.org/sql-ecology-lesson/01-sql-basic-queries.html)
     - [Starting with Data in R](https://datacarpentry.org/R-ecology-lesson/02-starting-with-data.html)
-    - [Starting with Data in Python](https://datacarpentry.org/python-ecology-lesson/02-starting-with-data/)
+    - [Starting with Data in Python](https://datacarpentry.org/python-ecology-lesson/02-starting-with-data.html)
   
   - Library Carpentry
     
-    - [Working with Files and Directories in the Unix Shell](https://librarycarpentry.github.io/lc-shell/03-working-with-files-and-folders/index.html)
-    - [Faceting and filtering in Open Refine](https://librarycarpentry.github.io/lc-open-refine/04-faceting-and-filtering/index.html)
-    - [For loops in Python](https://librarycarpentry.github.io/lc-python-intro/12-for-loops/index.html)
+    - [Working with Files and Directories in the Unix Shell](https://librarycarpentry.github.io/lc-shell/03-working-with-files-and-folders.html)
+    - [Faceting and filtering in Open Refine](https://librarycarpentry.github.io/lc-open-refine/04-faceting-and-filtering.html)
+    - [For loops in Python](https://librarycarpentry.github.io/lc-python-intro/12-for-loops.html)
   
   - Software Carpentry
     
-    - [Working with Files and Directories in the Unix Shell](https://swcarpentry.github.io/shell-novice/03-create/)
-    - [Tracking Changes in Git](https://swcarpentry.github.io/git-novice/04-changes/)
-    - [Selecting Data in SQL](https://swcarpentry.github.io/sql-novice-survey/01-select/)
-    - [Repeating Actions with Loops in Python](https://swcarpentry.github.io/python-novice-inflammation/05-loop/)
-    - [Exploring Data Frames in R](https://swcarpentry.github.io/r-novice-gapminder/05-data-structures-part2/)
+    - [Working with Files and Directories in the Unix Shell](https://swcarpentry.github.io/shell-novice/03-create.html)
+    - [Tracking Changes in Git](https://swcarpentry.github.io/git-novice/04-changes.html)
+    - [Selecting Data in SQL](https://swcarpentry.github.io/sql-novice-survey/01-select.html)
+    - [Repeating Actions with Loops in Python](https://swcarpentry.github.io/python-novice-inflammation/05-loop.html)
+    - [Exploring Data Frames in R](https://swcarpentry.github.io/r-novice-gapminder/05-data-structures-part2.html)
 
 :::::::::::::::::::::::::::::::::::::::  challenge
 
@@ -88,6 +88,7 @@ the following list for a starting point:
 - write a paragraph or "journal" entry about your
   experience of the training so far
 - write down one thing that struck you the most
+- write down one thing or topic that you want to learn more about
 
 This exercise should take about 10 minutes.
 
