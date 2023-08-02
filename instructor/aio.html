@@ -5,6 +5,7 @@
 <meta charset="utf-8">
 <title>Instructor Training: All in One View</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta property="og:title" content="All in One View">
 <link rel="stylesheet" type="text/css" href="../assets/styles.css">
 <script src="../assets/scripts.js" type="text/javascript"></script><!-- mathjax --><script type="text/x-mathjax-config">
     MathJax.Hub.Config({
@@ -20,7 +21,7 @@
         processEscapes: true
       }
     });
-    </script><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha256-nvJJv9wWKEm88qvoQl9ekL2J+k/RWIsaSScxxlsrv8k=" crossorigin="anonymous"></script><!-- Responsive Favicon for The Carpentries --><link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
+    </script><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha256-nvJJv9wWKEm88qvoQl9ekL2J+k/RWIsaSScxxlsrv8k=" crossorigin="anonymous"></script><!-- search --><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/autocomplete.js/0.38.0/autocomplete.jquery.min.js" integrity="sha512-GU9ayf+66Xx2TmpxqJpliWbT5PiGYxpaG8rfnBEk1LL8l1KGkRShhngwdXK1UgqhAzWpZHSiYPc09/NwDQIGyg==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous"></script><!-- Responsive Favicon for The Carpentries --><link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
 <link rel="manifest" href="../site.webmanifest">
@@ -37,24 +38,6 @@
 </div>
     </div>
     <div class="selector-container ">
-      
-      <div class="beta-alert alert alert-light alert-dismissable fade show" role="alert">
-        
-        
-        <abbr class="icon" title="This lesson is in the Workbench Beta Phase (beta stage). Click here to visit a snapshot of the styles version from 2023-02-06." style="text-decoration: unset">
-            <span class="visually-hidden">This lesson is in the Workbench Beta Phase (beta stage).</span>
-          <a href="https://carpentries.github.io/instructor-training" class="external-link alert-link" style="color: #383838">
-            <i aria-hidden="true" class="icon" data-feather="alert-circle" style="background: #719eff; border-radius: 5px"></i>
-            <span class="visually-hidden">Visit a snapshot of the styles version from 2023-02-06</span>
-          </a>
-        </abbr>
-        
-        
-        Workbench Beta | 
-        <a href="https://carpentries.typeform.com/to/KRBl4IZM" class="external-link alert-link" style="text-decoration: wavy overline">Give Feedback</a> | 
-        <a href="https://carpentries.github.io/workbench/beta-phase.html" class="external-link alert-link">Learn More</a>
-        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-      </div>
       
       
       <div class="dropdown">
@@ -79,9 +62,7 @@
       Instructor Training
     </div>
     <div class="search-icon-sm">
-      <!-- TODO: do not show until we have search
       <i role="img" aria-label="search button" data-feather="search"></i>
-      -->
     </div>
     <div class="desktop-nav">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -112,12 +93,18 @@
       </ul>
 </div>
     <form class="d-flex col-md-2 search-form">
-      <fieldset disabled>
-<input class="form-control me-2 searchbox" type="search" placeholder="Search" aria-label="Search"><button class="btn btn-outline-success tablet-search-button" type="submit">
-          <i class="search-icon" data-feather="search" role="img" aria-label="search button"></i>
-        </button>
-      </fieldset>
-</form>
+      <input type="search" class="form-control me-sm-2 search" aria-label="Toggle navigation" name="search-input" data-search-index="../search.json" id="search-input" placeholder="Search for" autocomplete="on"><button class="btn btn-outline-success tablet-search-button" type="submit">
+        <i class="search-icon" data-feather="search" role="img" aria-label="search button"></i>
+      </button>
+      <!-- <input class="form-control me-2 searchbox" name="search-input" id="search-input" data-search-index="../search.json" type="search" placeholder="Search" aria-label="Search"> --> 
+      <!-- <button class="btn btn-outline-success tablet-search-button" type="submit"><i class="search-icon" data-feather="search" role="img" aria-label="search button"></i></button> -->
+      <!-- <fieldset disabled> -->
+      <!-- <input class="form-control me-2 searchbox" type="search" placeholder="Search" aria-label="Search"> --> 
+      <!--   <button class="btn btn-outline-success tablet-search-button"  type="submit"> -->
+      <!--     <i class="search-icon" data-feather="search" role="img" aria-label="search button"></i> -->
+      <!--   </button> -->
+      <!-- </fieldset> -->
+    </form>
   </div>
 <!--/div.container-fluid -->
 </nav><div class="col-md-12 mobile-title">
@@ -546,9 +533,7 @@
         
 <section id="aio-01-welcome"><p>Content from <a href="01-welcome.html">Welcome</a></p>
 <hr>
-<p> Last updated on 2023-02-07 | 
-        
-        
+<p> Last updated on 2023-08-01 | 
         
         <a href="https://github.com/carpentries/instructor-training/edit/main/episodes/01-welcome.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <p>Estimated time <i aria-hidden="true" data-feather="clock"></i> 30 minutes </p>
@@ -587,12 +572,27 @@ an incident.</li>
 </div>
 </div>
 </div>
-<div id="discussion1" class="callout discussion">
+<div id="accordionInstructor1" class="accordion instructor-note accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button instructor-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInstructor1" aria-expanded="false" aria-controls="collapseInstructor1">
+  <h3 class="accordion-header" id="headingInstructor1">
+  <div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="edit-2"></i></div>
+  Instructor Note
+  </h3>
+</button>
+<div id="collapseInstructor1" class="accordion-collapse collapse" data-bs-parent="#accordionInstructor1" aria-labelledby="headingInstructor1">
+<div class="accordion-body">
+<p>In an online workshop, ensure that captions are turned on.</p>
+</div>
+</div>
+</div>
+</div>
+<div id="pronouns-and-names" class="callout discussion">
 <div class="callout-square">
 <i class="callout-icon" data-feather="message-circle"></i>
 </div>
 <div id="pronouns-and-names" class="callout-inner">
-<h3 class="callout-title">Pronouns and Names<a class="anchor" aria-label="anchor" href="#discussion1"></a>
+<h3 class="callout-title">Pronouns and Names<a class="anchor" aria-label="anchor" href="#pronouns-and-names"></a>
 </h3>
 <div class="callout-content">
 <p>Using correct names and pronouns (e.g. “she/her”) is important for
@@ -623,16 +623,16 @@ resources may be helpful for further reading:</p>
 </div>
 </div>
 </div>
-<figure><img src="../fig/Icebreaker_Stephan_Jantzen_in_Stadthafen_Rostock_2010-12-28_perspective_correction-GD.jpg" alt="Photo of an Icebreaker ship, named Stephan Jantzen" width="600" class="figure mx-auto d-block"><br>
-A different kind of “icebreaker.” Photo credit: Grand-Duc, Wikipedia, <a href="https://en.wikipedia.org/wiki/User:Grand-Duc" class="external-link">http://en.wikipedia.org/wiki/User:Grand-Duc</a></figure><section id="before-the-course-begins"><h2 class="section-heading">Before The Course Begins<a class="anchor" aria-label="anchor" href="#before-the-course-begins"></a>
+<figure><img src="../fig/Icebreaker_Stephan_Jantzen_in_Stadthafen_Rostock_2010-12-28_perspective_correction-GD.jpg" alt="Photo of an Icebreaker ship, named Stephan Jantzen" width="600" class="figure mx-auto d-block"><figcaption>A different kind of “icebreaker.” Photo credit:
+Grand-Duc, Wikipedia, <a href="https://en.wikipedia.org/wiki/User:Grand-Duc" class="external-link">http://en.wikipedia.org/wiki/User:Grand-Duc</a></figcaption></figure><section id="before-the-course-begins"><h2 class="section-heading">Before The Course Begins<a class="anchor" aria-label="anchor" href="#before-the-course-begins"></a>
 </h2>
 <hr class="half-width">
-<div id="discussion2" class="callout discussion">
+<div id="getting-to-know-each-other" class="callout discussion">
 <div class="callout-square">
 <i class="callout-icon" data-feather="message-circle"></i>
 </div>
 <div id="getting-to-know-each-other" class="callout-inner">
-<h3 class="callout-title">Getting to know each other<a class="anchor" aria-label="anchor" href="#discussion2"></a>
+<h3 class="callout-title">Getting to know each other<a class="anchor" aria-label="anchor" href="#getting-to-know-each-other"></a>
 </h3>
 <div class="callout-content">
 <p>If the Trainer has chosen an <a href="icebreakers.html">icebreaker
@@ -663,12 +663,12 @@ you report it to The Carpentries Code of Conduct Committee by completing
 <hr class="half-width">
 <p>Hello everyone, and welcome to The Carpentries instructor training.
 We are very pleased to have you with us.</p>
-<div id="discussion3" class="callout discussion">
+<div id="this-events-trainers" class="callout discussion">
 <div class="callout-square">
 <i class="callout-icon" data-feather="message-circle"></i>
 </div>
 <div id="this-events-trainers" class="callout-inner">
-<h3 class="callout-title">This Event’s Trainers<a class="anchor" aria-label="anchor" href="#discussion3"></a>
+<h3 class="callout-title">This Event’s Trainers<a class="anchor" aria-label="anchor" href="#this-events-trainers"></a>
 </h3>
 <div class="callout-content">
 <p>To begin class, each Trainer should give a brief introduction of
@@ -680,13 +680,13 @@ Introductions</a>)</p>
 </div>
 </div>
 <p>Now, we would like to get to know all of you.</p>
-<div id="discussion4" class="callout discussion">
+<div id="reviewing-the-carpentries-experience-and-goals" class="callout discussion">
 <div class="callout-square">
 <i class="callout-icon" data-feather="message-circle"></i>
 </div>
 <div id="reviewing-the-carpentries-experience-and-goals" class="callout-inner">
 <h3 class="callout-title">Reviewing The Carpentries Experience and
-Goals<a class="anchor" aria-label="anchor" href="#discussion4"></a>
+Goals<a class="anchor" aria-label="anchor" href="#reviewing-the-carpentries-experience-and-goals"></a>
 </h3>
 <div class="callout-content">
 <p>For the multiple choice questions below, please place an “X” next to
@@ -869,8 +869,6 @@ quickly assessed with a multiple choice question.</li>
 <hr>
 <p> Last updated on 2023-02-17 | 
         
-        
-        
         <a href="https://github.com/carpentries/instructor-training/edit/main/episodes/02-practice-learning.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <p>Estimated time <i aria-hidden="true" data-feather="clock"></i> 60 minutes </p>
 <div class="text-end">
@@ -1040,12 +1038,12 @@ existing mental model to fill in another, speeding learning and making a
 memorable connection. However, all analogies have limitations! If you
 choose to use an analogy, be sure its usefulness outweighs its potential
 to generate misconceptions that may interfere with learning.</p>
-<div id="discussion1" class="callout discussion">
+<div id="analogy-brainstorm" class="callout discussion">
 <div class="callout-square">
 <i class="callout-icon" data-feather="message-circle"></i>
 </div>
 <div id="analogy-brainstorm" class="callout-inner">
-<h3 class="callout-title">Analogy Brainstorm<a class="anchor" aria-label="anchor" href="#discussion1"></a>
+<h3 class="callout-title">Analogy Brainstorm<a class="anchor" aria-label="anchor" href="#analogy-brainstorm"></a>
 </h3>
 <div class="callout-content">
 <ol style="list-style-type: decimal">
@@ -1062,12 +1060,12 @@ is it wrong?</li>
 </div>
 </div>
 </div>
-<div id="callout1" class="callout callout">
+<div id="analogies-at-work-software-carpentry" class="callout callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
 <div id="analogies-at-work-software-carpentry" class="callout-inner">
-<h3 class="callout-title">Analogies at Work: “Software Carpentry”<a class="anchor" aria-label="anchor" href="#callout1"></a>
+<h3 class="callout-title">Analogies at Work: “Software Carpentry”<a class="anchor" aria-label="anchor" href="#analogies-at-work-software-carpentry"></a>
 </h3>
 <div class="callout-content">
 <p>People often ask where our name came from. Greg Wilson has this to
@@ -1166,12 +1164,12 @@ child might develop after putting the ball in the water.</p>
 <figure><img src="../fig/ballwater1a.svg" alt='Two words inside rectangles, with labeled arrows connecting them. "Ball" is at the left, with an arrow pointing to "Water", at right, labeled as "Pushes out."' class="figure mx-auto d-block"></figure><p>Give a child balls of three different sizes, and they might put
 together a somewhat more complex mental model, perhaps illustrated
 as:</p>
-<figure><img src="../fig/ballwater2a.svg" alt='Four words inside rectangles, with labeled arrows connecting them. "Ball" is at the left, and "Water", at right. "Big Ball" and "Small Ball" are stacked vertically between them. Arrows from "Ball" are labeled "can be MORE" and can be "LESS", and arrows to "water" are labeled as "Pushes out MORE" and "Pushes out "LESS"' class="figure mx-auto d-block"></figure><div id="discussion2" class="callout discussion">
+<figure><img src="../fig/ballwater2a.svg" alt='Four words inside rectangles, with labeled arrows connecting them. "Ball" is at the left, and "Water", at right. "Big Ball" and "Small Ball" are stacked vertically between them. Arrows from "Ball" are labeled "can be MORE" and can be "LESS", and arrows to "water" are labeled as "Pushes out MORE" and "Pushes out "LESS"' class="figure mx-auto d-block"></figure><div id="mapping-a-mental-model-1" class="callout discussion">
 <div class="callout-square">
 <i class="callout-icon" data-feather="message-circle"></i>
 </div>
 <div id="mapping-a-mental-model-1" class="callout-inner">
-<h3 class="callout-title">Mapping a Mental Model<a class="anchor" aria-label="anchor" href="#discussion2"></a>
+<h3 class="callout-title">Mapping a Mental Model<a class="anchor" aria-label="anchor" href="#mapping-a-mental-model-1"></a>
 </h3>
 <div class="callout-content">
 <ol style="list-style-type: decimal">
@@ -1251,12 +1249,12 @@ also fall into this category of misconception.</li>
 watch out for in Carpentries workshops. While teaching, we want to
 expose learners’ broken models so that we can help them begin to
 deconstruct them and build better ones in their place.</p>
-<div id="discussion3" class="callout discussion">
+<div id="anticipating-misconceptions" class="callout discussion">
 <div class="callout-square">
 <i class="callout-icon" data-feather="message-circle"></i>
 </div>
 <div id="anticipating-misconceptions" class="callout-inner">
-<h3 class="callout-title">Anticipating Misconceptions<a class="anchor" aria-label="anchor" href="#discussion3"></a>
+<h3 class="callout-title">Anticipating Misconceptions<a class="anchor" aria-label="anchor" href="#anticipating-misconceptions"></a>
 </h3>
 <div class="callout-content">
 <p>Describe a misconception you have encountered as a teacher or as a
@@ -1293,12 +1291,12 @@ sides when learning <em>is</em> proceeding on track! It is far more
 reliable than reading faces or using feelings of comfort as a metric,
 which tends to be what Instructors and learners default to
 otherwise.</p>
-<div id="discussion4" class="callout discussion">
+<div id="formative-assessments" class="callout discussion">
 <div class="callout-square">
 <i class="callout-icon" data-feather="message-circle"></i>
 </div>
 <div id="formative-assessments" class="callout-inner">
-<h3 class="callout-title">Formative Assessments<a class="anchor" aria-label="anchor" href="#discussion4"></a>
+<h3 class="callout-title">Formative Assessments<a class="anchor" aria-label="anchor" href="#formative-assessments"></a>
 </h3>
 <div class="callout-content">
 <p>Any instructional tool that generates feedback that is used in a
@@ -1328,12 +1326,12 @@ c) 312
 d) 33</code></pre>
 <p>The correct answer is 42, but each of the other answers provides
 valuable insight.</p>
-<div id="challenge1" class="callout challenge">
+<div id="identify-the-misconceptions" class="callout challenge">
 <div class="callout-square">
 <i class="callout-icon" data-feather="zap"></i>
 </div>
 <div id="identify-the-misconceptions" class="callout-inner">
-<h3 class="callout-title">Identify the Misconceptions<a class="anchor" aria-label="anchor" href="#challenge1"></a>
+<h3 class="callout-title">Identify the Misconceptions<a class="anchor" aria-label="anchor" href="#identify-the-misconceptions"></a>
 </h3>
 <div class="callout-content">
 <p>Choose one wrong answer and write in the Etherpad what misconception
@@ -1384,12 +1382,12 @@ assessment</strong>
 particular concept. Using formative assessment effectively to discover
 and address misconceptions is a teaching skill that you can develop with
 reflective practice.</p>
-<div id="challenge2" class="callout challenge">
+<div id="handling-outcomes" class="callout challenge">
 <div class="callout-square">
 <i class="callout-icon" data-feather="zap"></i>
 </div>
 <div id="handling-outcomes" class="callout-inner">
-<h3 class="callout-title">Handling Outcomes<a class="anchor" aria-label="anchor" href="#challenge2"></a>
+<h3 class="callout-title">Handling Outcomes<a class="anchor" aria-label="anchor" href="#handling-outcomes"></a>
 </h3>
 <div class="callout-content">
 <p>Formative assessments allow us as instructors to adapt our
@@ -1509,12 +1507,12 @@ try to think (by analogy) in terms of little pieces loosely joined, both
 set the stage for discussing functions. Explicitly referring back to
 pipes and filters in the shell when introducing functions helps solidify
 both ideas.</p>
-<div id="callout2" class="callout callout">
+<div id="meeting-learners-where-they-are" class="callout callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
 <div id="meeting-learners-where-they-are" class="callout-inner">
-<h3 class="callout-title">Meeting Learners Where They Are<a class="anchor" aria-label="anchor" href="#callout2"></a>
+<h3 class="callout-title">Meeting Learners Where They Are<a class="anchor" aria-label="anchor" href="#meeting-learners-where-they-are"></a>
 </h3>
 <div class="callout-content">
 <p>One of the strengths of Carpentries workshops is that we meet
@@ -1554,8 +1552,6 @@ learners and instructors.</li>
 <hr>
 <p> Last updated on 2023-02-07 | 
         
-        
-        
         <a href="https://github.com/carpentries/instructor-training/edit/main/episodes/03-coffee.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <p>Estimated time <i aria-hidden="true" data-feather="clock"></i> 0 minutes </p>
 <div class="text-end">
@@ -1564,9 +1560,7 @@ learners and instructors.</li>
 <p>Take a break. If you can, move around and look at something away from
 your screen to give your eyes a rest.</p></section><section id="aio-04-expertise"><p>Content from <a href="04-expertise.html">Expertise and Instruction</a></p>
 <hr>
-<p> Last updated on 2023-02-07 | 
-        
-        
+<p> Last updated on 2023-08-01 | 
         
         <a href="https://github.com/carpentries/instructor-training/edit/main/episodes/04-expertise.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <p>Estimated time <i aria-hidden="true" data-feather="clock"></i> 45 minutes </p>
@@ -1628,12 +1622,12 @@ mental model, or have only a very incomplete model with limited utility.
 Competent practitioners have mental models that work well enough for
 most situations. How are experts different from both of these
 groups?</p>
-<div id="discussion1" class="callout discussion">
+<div id="what-is-an-expert" class="callout discussion">
 <div class="callout-square">
 <i class="callout-icon" data-feather="message-circle"></i>
 </div>
 <div id="what-is-an-expert" class="callout-inner">
-<h3 class="callout-title">What Is An Expert?<a class="anchor" aria-label="anchor" href="#discussion1"></a>
+<h3 class="callout-title">What Is An Expert?<a class="anchor" aria-label="anchor" href="#what-is-an-expert"></a>
 </h3>
 <div class="callout-content">
 <p>What is something that you are an expert in? How does your experience
@@ -1683,12 +1677,12 @@ between A and F. Experts are frequently so familiar with their subject
 that they can no longer imagine what it is like to <em>not</em>
 understand the world that way. This phenomenon is known in the
 literature as an <em>expert blind spot</em>.</p>
-<div id="callout1" class="callout callout">
+<div id="expert-awareness-gap" class="callout callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
 <div id="expert-awareness-gap" class="callout-inner">
-<h3 class="callout-title">Expert Awareness Gap<a class="anchor" aria-label="anchor" href="#callout1"></a>
+<h3 class="callout-title">Expert Awareness Gap<a class="anchor" aria-label="anchor" href="#expert-awareness-gap"></a>
 </h3>
 <div class="callout-content">
 <p>In The Carpentries, we aim to create an inclusive environment. We
@@ -1724,12 +1718,12 @@ the other hand, you still feel new to your subject area – perhaps you
 even feel a little tentative about whether you are “expert enough” to
 teach – take heart! Your explanations may be more likely to meet novice
 learners where they are.</p>
-<div id="discussion2" class="callout discussion">
+<div id="awareness-gaps" class="callout discussion">
 <div class="callout-square">
 <i class="callout-icon" data-feather="message-circle"></i>
 </div>
 <div id="awareness-gaps" class="callout-inner">
-<h3 class="callout-title">Awareness Gaps<a class="anchor" aria-label="anchor" href="#discussion2"></a>
+<h3 class="callout-title">Awareness Gaps<a class="anchor" aria-label="anchor" href="#awareness-gaps"></a>
 </h3>
 <div class="callout-content">
 <ol style="list-style-type: decimal">
@@ -1754,7 +1748,7 @@ because you naturally use these terms interchangeably. Yet, someone less
 familiar with US English might hesitate, wondering if these words mean
 the same thing, or close enough, under the circumstances. Similarly, in
 a Carpentries workshop, an Instructor may start a workshop talking about
-“Unix,” but then automatically start using words like “bash” and “shell”
+“Unix”, but then automatically start using words like “Bash” and “shell”
 without noticing that learners are struggling to figure out how these
 two new words are related.</p>
 <p>Novice learners can be confused by interchangeable use of more than
@@ -1764,12 +1758,12 @@ effect. Instructors may use absolute file paths in one place, then
 default to relative file paths elsewhere without noticing that
 explanation is required. Or, they may assume that a learner who has an
 absolute file path will be able to navigate to the file in a GUI.</p>
-<div id="discussion3" class="callout discussion">
+<div id="what-do-you-use-interchangeably" class="callout discussion">
 <div class="callout-square">
 <i class="callout-icon" data-feather="message-circle"></i>
 </div>
 <div id="what-do-you-use-interchangeably" class="callout-inner">
-<h3 class="callout-title">What do you use interchangeably?<a class="anchor" aria-label="anchor" href="#discussion3"></a>
+<h3 class="callout-title">What do you use interchangeably?<a class="anchor" aria-label="anchor" href="#what-do-you-use-interchangeably"></a>
 </h3>
 <div class="callout-content">
 <p>In the Etherpad, share an example of words or notation that you
@@ -1793,12 +1787,12 @@ novice has even finished reading the error message. Because of this, it
 is very important while teaching to be explicit about the process you
 are using to engage with errors, even if they seem trivial to you, as
 they often will.</p>
-<div id="discussion4" class="callout discussion">
+<div id="diagnosis" class="callout discussion">
 <div class="callout-square">
 <i class="callout-icon" data-feather="message-circle"></i>
 </div>
 <div id="diagnosis" class="callout-inner">
-<h3 class="callout-title">Diagnosis<a class="anchor" aria-label="anchor" href="#discussion4"></a>
+<h3 class="callout-title">Diagnosis<a class="anchor" aria-label="anchor" href="#diagnosis"></a>
 </h3>
 <div class="callout-content">
 <p>What is an error message that you encounter frequently in your work?
@@ -1827,12 +1821,12 @@ experience it that way.</p>
 <p>With practice, we can change the way we speak to avoid dismissive
 language and replace it with more positive and motivating word
 choices.</p>
-<div id="challenge1" class="callout challenge">
+<div id="changing-your-language" class="callout challenge">
 <div class="callout-square">
 <i class="callout-icon" data-feather="zap"></i>
 </div>
 <div id="changing-your-language" class="callout-inner">
-<h3 class="callout-title">Changing Your Language<a class="anchor" aria-label="anchor" href="#challenge1"></a>
+<h3 class="callout-title">Changing Your Language<a class="anchor" aria-label="anchor" href="#changing-your-language"></a>
 </h3>
 <div class="callout-content">
 <ol style="list-style-type: decimal">
@@ -1911,12 +1905,12 @@ interfere with their other work. These kinds of beliefs can make their
 motivation to persevere more fragile than yours might have been when you
 got started.</li>
 </ul>
-<div id="callout2" class="callout callout">
+<div id="the-carpentries-is-not-computer-science" class="callout callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
 <div id="the-carpentries-is-not-computer-science" class="callout-inner">
-<h3 class="callout-title">The Carpentries Is Not Computer Science<a class="anchor" aria-label="anchor" href="#callout2"></a>
+<h3 class="callout-title">The Carpentries Is Not Computer Science<a class="anchor" aria-label="anchor" href="#the-carpentries-is-not-computer-science"></a>
 </h3>
 <div class="callout-content">
 <p>Many of the foundational concepts of computer science, such as
@@ -1975,8 +1969,6 @@ awareness gaps.</li>
 </section></section><section id="aio-05-memory"><p>Content from <a href="05-memory.html">Memory and Cognitive Load</a></p>
 <hr>
 <p> Last updated on 2023-02-07 | 
-        
-        
         
         <a href="https://github.com/carpentries/instructor-training/edit/main/episodes/05-memory.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <p>Estimated time <i aria-hidden="true" data-feather="clock"></i> 45 minutes </p>
@@ -2045,12 +2037,12 @@ will not retain the material as well as if we present small amounts of
 information interspersed with practice opportunities. This is yet
 another reason why going slowly and using frequent formative assessment
 is important.</p>
-<div id="discussion1" class="callout discussion">
+<div id="test-your-working-memory" class="callout discussion">
 <div class="callout-square">
 <i class="callout-icon" data-feather="message-circle"></i>
 </div>
 <div id="test-your-working-memory" class="callout-inner">
-<h3 class="callout-title">Test Your Working Memory<a class="anchor" aria-label="anchor" href="#discussion1"></a>
+<h3 class="callout-title">Test Your Working Memory<a class="anchor" aria-label="anchor" href="#test-your-working-memory"></a>
 </h3>
 <div class="callout-content">
 <p>This website implements a short test of working memory: <a href="https://miku.github.io/activememory/" class="external-link">https://miku.github.io/activememory/</a></p>
@@ -2062,13 +2054,13 @@ the analog version of this test.</p>
 </div>
 </div>
 </div>
-<div id="discussion2" class="callout discussion">
+<div id="test-your-working-memory---analog-version-5-min" class="callout discussion">
 <div class="callout-square">
 <i class="callout-icon" data-feather="message-circle"></i>
 </div>
 <div id="test-your-working-memory---analog-version-5-min" class="callout-inner">
 <h3 class="callout-title">Test Your Working Memory - Analog version (5
-min)<a class="anchor" aria-label="anchor" href="#discussion2"></a>
+min)<a class="anchor" aria-label="anchor" href="#test-your-working-memory---analog-version-5-min"></a>
 </h3>
 <div class="callout-content">
 <p>Read the following list and try to memorize the items in it:</p>
@@ -2113,12 +2105,12 @@ will remember a word we read as a single item (“cat”), rather than as a
 sequence of letters (“c-a-t”). Similarly, the pattern made by five spots
 on cards or die is remembered as a whole rather than as five separate
 pieces of information.</p>
-<div id="discussion3" class="callout discussion">
+<div id="improving-short-term-memory-with-chunking" class="callout discussion">
 <div class="callout-square">
 <i class="callout-icon" data-feather="message-circle"></i>
 </div>
 <div id="improving-short-term-memory-with-chunking" class="callout-inner">
-<h3 class="callout-title">Improving Short-term Memory with Chunking<a class="anchor" aria-label="anchor" href="#discussion3"></a>
+<h3 class="callout-title">Improving Short-term Memory with Chunking<a class="anchor" aria-label="anchor" href="#improving-short-term-memory-with-chunking"></a>
 </h3>
 <div class="callout-content">
 <p>Repeat the memory exercise you did earlier, but this time, try to
@@ -2231,12 +2223,12 @@ using <strong>guided practice</strong>: creating a structure that
 narrowly guides focus on specific skills and knowledge in a stepped
 fashion, with feedback at each step before transferring attention to a
 new feature.</p>
-<div id="callout1" class="callout callout">
+<div id="is-guided-practice-hand-holding" class="callout callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
 <div id="is-guided-practice-hand-holding" class="callout-inner">
-<h3 class="callout-title">Is Guided Practice “Hand Holding?”<a class="anchor" aria-label="anchor" href="#callout1"></a>
+<h3 class="callout-title">Is Guided Practice “Hand Holding?”<a class="anchor" aria-label="anchor" href="#is-guided-practice-hand-holding"></a>
 </h3>
 <div class="callout-content">
 <p>An alternative to guided practice is a <em>minimal guidance</em>
@@ -2264,12 +2256,12 @@ appealing, but that does not mean it always works.</p>
 </div>
 </div>
 </div>
-<div id="discussion4" class="callout discussion">
+<div id="mapping-cognitive-load" class="callout discussion">
 <div class="callout-square">
 <i class="callout-icon" data-feather="message-circle"></i>
 </div>
 <div id="mapping-cognitive-load" class="callout-inner">
-<h3 class="callout-title">Mapping Cognitive Load<a class="anchor" aria-label="anchor" href="#discussion4"></a>
+<h3 class="callout-title">Mapping Cognitive Load<a class="anchor" aria-label="anchor" href="#mapping-cognitive-load"></a>
 </h3>
 <div class="callout-content">
 <p>Look in the curriculum that you chose to prepare for this workshop
@@ -2404,9 +2396,7 @@ memory.</li>
 </div>
 </section></section><section id="aio-06-feedback"><p>Content from <a href="06-feedback.html">Building Skill With Feedback</a></p>
 <hr>
-<p> Last updated on 2023-02-07 | 
-        
-        
+<p> Last updated on 2023-08-01 | 
         
         <a href="https://github.com/carpentries/instructor-training/edit/main/episodes/06-feedback.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <p>Estimated time <i aria-hidden="true" data-feather="clock"></i> 20 minutes </p>
@@ -2416,7 +2406,7 @@ memory.</li>
 <p>We use formative assessment of learners during workshops to help
 track learners’ progress and adjust our approach to teaching the content
 as needed. But formative assessment is not just for learners. As we will
-discuss in more detail <a href="11-practice-teaching/">later</a>,
+discuss in more detail <a href="11-practice-teaching">later</a>,
 teaching is also a skill that is improved through regular practice and
 feedback. We gather feedback from our learners at multiple points in the
 workshop and in different forms.</p>
@@ -2483,12 +2473,12 @@ the results! Take care not to share this link with your learners.</p>
 displaying the last year of data for our workshop surveys</a> so you can
 have an idea of what to expect for your workshop.</li>
 </ul>
-<div id="checklist1" class="callout checklist">
+<div id="survey-links" class="callout checklist">
 <div class="callout-square">
 <i class="callout-icon" data-feather="check-square"></i>
 </div>
 <div id="survey-links" class="callout-inner">
-<h3 class="callout-title">Survey links<a class="anchor" aria-label="anchor" href="#checklist1"></a>
+<h3 class="callout-title">Survey links<a class="anchor" aria-label="anchor" href="#survey-links"></a>
 </h3>
 <div class="callout-content">
 <p>The survey links above are only for you to preview the survey as part
@@ -2547,12 +2537,12 @@ look for patterns. At the start of each half day, the Instructors take a
 few minutes to address commonly raised issues with the whole class. The
 non-teaching Instructor can also type answers to the questions in the
 Etherpad.</p>
-<div id="callout1" class="callout callout">
+<div id="be-explicit-about-using-feedback" class="callout callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
 <div id="be-explicit-about-using-feedback" class="callout-inner">
-<h3 class="callout-title">Be Explicit About Using Feedback<a class="anchor" aria-label="anchor" href="#callout1"></a>
+<h3 class="callout-title">Be Explicit About Using Feedback<a class="anchor" aria-label="anchor" href="#be-explicit-about-using-feedback"></a>
 </h3>
 <div class="callout-content">
 <p>Learners are more likely to give useful feedback if they feel that
@@ -2577,12 +2567,12 @@ writes down the feedback in the Etherpad or a text editor, but does not
 comment on the feedback while collecting it. The instructors then
 discuss this feedback and how they plan to act on it. Like with minute
 cards, be explicit about how you are responding to learner feedback.</p>
-<div id="discussion1" class="callout discussion">
+<div id="give-us-feedback" class="callout discussion">
 <div class="callout-square">
 <i class="callout-icon" data-feather="message-circle"></i>
 </div>
 <div id="give-us-feedback" class="callout-inner">
-<h3 class="callout-title">Give Us Feedback<a class="anchor" aria-label="anchor" href="#discussion1"></a>
+<h3 class="callout-title">Give Us Feedback<a class="anchor" aria-label="anchor" href="#give-us-feedback"></a>
 </h3>
 <div class="callout-content">
 <p>Write one thing you learned this so far in this training that you
@@ -2613,8 +2603,6 @@ end of your workshop.</li>
 <hr>
 <p> Last updated on 2023-02-07 | 
         
-        
-        
         <a href="https://github.com/carpentries/instructor-training/edit/main/episodes/07-lunch.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <p>Estimated time <i aria-hidden="true" data-feather="clock"></i> 0 minutes </p>
 <div class="text-end">
@@ -2623,9 +2611,7 @@ end of your workshop.</li>
 <p>Take a break. If you can, move around and look at something away from
 your screen to give your eyes a rest.</p></section><section id="aio-08-motivation"><p>Content from <a href="08-motivation.html">Motivation and Demotivation</a></p>
 <hr>
-<p> Last updated on 2023-02-07 | 
-        
-        
+<p> Last updated on 2023-08-01 | 
         
         <a href="https://github.com/carpentries/instructor-training/edit/main/episodes/08-motivation.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <p>Estimated time <i aria-hidden="true" data-feather="clock"></i> 60 minutes </p>
@@ -2717,12 +2703,12 @@ near-term application should be avoided in our workshops.</p>
 tasks</strong> – real tasks performed by someone doing their work. If
 you can identify authentic tasks from your own work that could be useful
 to others, these examples will be highly motivating.</p>
-<div id="discussion1" class="callout discussion">
+<div id="authentic-tasks-think-pair-share" class="callout discussion">
 <div class="callout-square">
 <i class="callout-icon" data-feather="message-circle"></i>
 </div>
 <div id="authentic-tasks-think-pair-share" class="callout-inner">
-<h3 class="callout-title">Authentic Tasks: Think, Pair, Share<a class="anchor" aria-label="anchor" href="#discussion1"></a>
+<h3 class="callout-title">Authentic Tasks: Think, Pair, Share<a class="anchor" aria-label="anchor" href="#authentic-tasks-think-pair-share"></a>
 </h3>
 <div class="callout-content">
 <p><strong>Think</strong> about some task you did this week that uses
@@ -2739,12 +2725,12 @@ approach.</p>
 </div>
 </div>
 </div>
-<div id="callout1" class="callout callout">
+<div id="actual-time" class="callout callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
 <div id="actual-time" class="callout-inner">
-<h3 class="callout-title">Actual Time<a class="anchor" aria-label="anchor" href="#callout1"></a>
+<h3 class="callout-title">Actual Time<a class="anchor" aria-label="anchor" href="#actual-time"></a>
 </h3>
 <div class="callout-content">
 <p>Any useful estimate of time must take into account <strong>how
@@ -2775,12 +2761,12 @@ using some of the other techniques in this section.</p>
 <p>In addition to teaching things that will make our learners’ lives
 easier and focusing on authentic tasks, there are a number of other
 strategies we can use to motivate learners when we teach.</p>
-<div id="discussion2" class="callout discussion">
+<div id="brainstorming-motivational-impacts" class="callout discussion">
 <div class="callout-square">
 <i class="callout-icon" data-feather="message-circle"></i>
 </div>
 <div id="brainstorming-motivational-impacts" class="callout-inner">
-<h3 class="callout-title">Brainstorming Motivational Impacts<a class="anchor" aria-label="anchor" href="#discussion2"></a>
+<h3 class="callout-title">Brainstorming Motivational Impacts<a class="anchor" aria-label="anchor" href="#brainstorming-motivational-impacts"></a>
 </h3>
 <div class="callout-content">
 <p>Think back to courses you have taken in the past and consider things
@@ -2860,12 +2846,12 @@ and helps them to stay motivated. Be sure to discuss this with your
 helpers, since they are often the ‘first responders’ to learner
 mistakes.</li>
 </ul>
-<div id="discussion3" class="callout discussion">
+<div id="helping-learners-learn-from-mistakes" class="callout discussion">
 <div class="callout-square">
 <i class="callout-icon" data-feather="message-circle"></i>
 </div>
 <div id="helping-learners-learn-from-mistakes" class="callout-inner">
-<h3 class="callout-title">Helping Learners Learn From Mistakes<a class="anchor" aria-label="anchor" href="#discussion3"></a>
+<h3 class="callout-title">Helping Learners Learn From Mistakes<a class="anchor" aria-label="anchor" href="#helping-learners-learn-from-mistakes"></a>
 </h3>
 <div class="callout-content">
 <p>A learner at your workshop asks for your help with an exercise and
@@ -2886,7 +2872,7 @@ would respond.</p>
 learners to have confidence in our qualifications, but it is easy to
 take this too far. Presenting yourself as a learner offers a relatable
 model, fostering a growth mindset and teaching a positive approach to
-the continuing challenge of learning. Using <a href="17-live/">participatory live coding</a>, our chosen method for
+the continuing challenge of learning. Using <a href="17-live">participatory live coding</a>, our chosen method for
 teaching concepts, is very useful for this reason. It is common to make
 errors while coding. Embrace these with enthusiasm! Leveraging your own
 mistakes as opportunities can turn an awkward moment into a highlight of
@@ -2894,12 +2880,12 @@ a lesson, demonstrating both problem-solving approaches and positive
 error framing. If you are unlucky and fail to make any useful mistakes,
 sharing stories about your learning process can help here, too.</li>
 </ul>
-<div id="testimonial1" class="callout testimonial">
+<div id="typos" class="callout testimonial">
 <div class="callout-square">
 <i class="callout-icon" data-feather="heart"></i>
 </div>
 <div id="typos" class="callout-inner">
-<h3 class="callout-title">Typos<a class="anchor" aria-label="anchor" href="#testimonial1"></a>
+<h3 class="callout-title">Typos<a class="anchor" aria-label="anchor" href="#typos"></a>
 </h3>
 <div class="callout-content">
 <p>The typos are the pedagogy. — Emily Jane McTavish</p>
@@ -2921,12 +2907,12 @@ effort or improvement instead. If you are not convinced of this,
 consider the impact on the person sitting next to your target, who might
 overhear but not receive the same praise.</li>
 </ul>
-<div id="challenge1" class="callout challenge">
+<div id="choosing-our-praises" class="callout challenge">
 <div class="callout-square">
 <i class="callout-icon" data-feather="zap"></i>
 </div>
 <div id="choosing-our-praises" class="callout-inner">
-<h3 class="callout-title">Choosing our Praises<a class="anchor" aria-label="anchor" href="#challenge1"></a>
+<h3 class="callout-title">Choosing our Praises<a class="anchor" aria-label="anchor" href="#choosing-our-praises"></a>
 </h3>
 <div class="callout-content">
 <p>Since we are so used to being praised for our performance, it can be
@@ -2956,7 +2942,7 @@ at what you learned trying to solve it!</li>
   Show me the solution
   </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
 <ol style="list-style-type: decimal">
 <li>Effort-based.</li>
@@ -3059,12 +3045,12 @@ do. Teaching can be an incredibly gratifying activity! Finding and
 preserving your own motivation through the many challenges ahead will
 make your journey as a teacher a more joyful one.</li>
 </ul>
-<div id="discussion4" class="callout discussion">
+<div id="why-do-you-teach" class="callout discussion">
 <div class="callout-square">
 <i class="callout-icon" data-feather="message-circle"></i>
 </div>
 <div id="why-do-you-teach" class="callout-inner">
-<h3 class="callout-title">Why Do You Teach?<a class="anchor" aria-label="anchor" href="#discussion4"></a>
+<h3 class="callout-title">Why Do You Teach?<a class="anchor" aria-label="anchor" href="#why-do-you-teach"></a>
 </h3>
 <div class="callout-content">
 <p>We all have a different motivation for teaching, and that is a really
@@ -3099,8 +3085,6 @@ stay motivated.</li>
 </section></section><section id="aio-09-eia"><p>Content from <a href="09-eia.html">Equity, Inclusion, and Accessibility</a></p>
 <hr>
 <p> Last updated on 2023-02-07 | 
-        
-        
         
         <a href="https://github.com/carpentries/instructor-training/edit/main/episodes/09-eia.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <p>Estimated time <i aria-hidden="true" data-feather="clock"></i> 40 minutes </p>
@@ -3182,12 +3166,12 @@ community to identify 9 <a href="https://carpentries.org/values/" class="externa
 Values</a> – things that we do, things that we are, and things that we
 champion. Many of these relate to equity, inclusion, and
 accessibility.</p>
-<div id="discussion1" class="callout discussion">
+<div id="discuss-the-carpentries-core-values" class="callout discussion">
 <div class="callout-square">
 <i class="callout-icon" data-feather="message-circle"></i>
 </div>
 <div id="discuss-the-carpentries-core-values" class="callout-inner">
-<h3 class="callout-title">Discuss The Carpentries Core Values<a class="anchor" aria-label="anchor" href="#discussion1"></a>
+<h3 class="callout-title">Discuss The Carpentries Core Values<a class="anchor" aria-label="anchor" href="#discuss-the-carpentries-core-values"></a>
 </h3>
 <div class="callout-content">
 <ol style="list-style-type: decimal">
@@ -3208,13 +3192,13 @@ actively considering the core value you chose?</li>
 <p>Barriers to accessibility encountered in a workshop are demotivating
 at best and can exclude a learner entirely. What barriers might be
 present in your workshop, and what can you do to remove them?</p>
-<div id="discussion2" class="callout discussion">
+<div id="what-happens-when-accessibility-is-an-issue" class="callout discussion">
 <div class="callout-square">
 <i class="callout-icon" data-feather="message-circle"></i>
 </div>
 <div id="what-happens-when-accessibility-is-an-issue" class="callout-inner">
 <h3 class="callout-title">What Happens When Accessibility is an
-Issue?<a class="anchor" aria-label="anchor" href="#discussion2"></a>
+Issue?<a class="anchor" aria-label="anchor" href="#what-happens-when-accessibility-is-an-issue"></a>
 </h3>
 <div class="callout-content">
 <p>Think of a time when you have been affected by, or noticed someone
@@ -3257,7 +3241,7 @@ example of universal design is curb cuts and sidewalk ramps. While they
 were originally created to make it easier for wheelchair users to move
 around, they proved to be equally helpful to people with strollers and
 grocery carts.</p>
-<figure><img src="../fig/sketchplanations-the-curb-cut-effect.png" alt='People using different wheeled devices utilising the curb cut. The picture is titled The Curb-Cut Effect and states "when we design for disabilities, we make things better for everyone."' width="600" class="figure mx-auto d-block"> Image: <a href="https://sketchplanations.com/the-curb-cut-effect" class="external-link">Sketchplanations</a></figure>
+<p><img src="../fig/sketchplanations-the-curb-cut-effect.png" alt='People using different wheeled devices utilising the curb cut. The picture is titled The Curb-Cut Effect and states "when we design for disabilities, we make things better for everyone."' width="600" class="figure"> Image: <a href="https://sketchplanations.com/the-curb-cut-effect" class="external-link">Sketchplanations</a></p>
 </div>
 <div class="section level3">
 <h3 id="universal-design-in-learning-udl">Universal Design in Learning (UDL)<a class="anchor" aria-label="anchor" href="#universal-design-in-learning-udl"></a>
@@ -3276,13 +3260,13 @@ in how they:</p>
 <li>engage, and</li>
 <li>share information.</li>
 </ol>
-<div id="discussion3" class="callout discussion">
+<div id="activity-applying-universal-design-in-your-teaching" class="callout discussion">
 <div class="callout-square">
 <i class="callout-icon" data-feather="message-circle"></i>
 </div>
 <div id="activity-applying-universal-design-in-your-teaching" class="callout-inner">
 <h3 class="callout-title">Activity: Applying Universal Design in Your
-Teaching<a class="anchor" aria-label="anchor" href="#discussion3"></a>
+Teaching<a class="anchor" aria-label="anchor" href="#activity-applying-universal-design-in-your-teaching"></a>
 </h3>
 <div class="callout-content">
 <p>Consider some of the teaching tools and strategies we have discussed
@@ -3303,12 +3287,12 @@ learners?</p>
 approach to universal design, make an effort to <em>involve people with
 disabilities in decision-making</em>. Carpentries communications
 channels can be a good place to ask for advice more broadly.</p>
-<div id="callout1" class="callout callout">
+<div id="every-little-bit-counts" class="callout callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
 <div id="every-little-bit-counts" class="callout-inner">
-<h3 class="callout-title">Every Little Bit Counts<a class="anchor" aria-label="anchor" href="#callout1"></a>
+<h3 class="callout-title">Every Little Bit Counts<a class="anchor" aria-label="anchor" href="#every-little-bit-counts"></a>
 </h3>
 <div class="callout-content">
 <p>Looking at people who work with disability and accessibility, it’s
@@ -3337,12 +3321,12 @@ accessibility checklist</a> in The Carpentries Handbook. In particular,
 take note that the most frequent accessibility challenge noted in <a href="https://zenodo.org/record/1325464#.YVJIWS-B0ea" class="external-link">Carpentries
 post-assessment surveys</a> is difficulty hearing an Instructor from the
 back of the room.</p>
-<div id="callout2" class="callout callout">
+<div id="accessibility-testing" class="callout callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
 <div id="accessibility-testing" class="callout-inner">
-<h3 class="callout-title">Accessibility Testing<a class="anchor" aria-label="anchor" href="#callout2"></a>
+<h3 class="callout-title">Accessibility Testing<a class="anchor" aria-label="anchor" href="#accessibility-testing"></a>
 </h3>
 <div class="callout-content">
 <p>Find the nearest public transportation drop-off point to your
@@ -3425,12 +3409,12 @@ which your perceptions and behaviors are influenced by stereotypes.</li>
 <li>Avoid calling attention to common stereotypes, even in a way that
 seems positive.</li>
 </ul>
-<div id="callout3" class="callout callout">
+<div id="better-together" class="callout callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
 <div id="better-together" class="callout-inner">
-<h3 class="callout-title">Better Together<a class="anchor" aria-label="anchor" href="#callout3"></a>
+<h3 class="callout-title">Better Together<a class="anchor" aria-label="anchor" href="#better-together"></a>
 </h3>
 <div class="callout-content">
 <p>One way to support at-risk learners of all kinds is to ask people to
@@ -3551,8 +3535,6 @@ environment.</li>
 <hr>
 <p> Last updated on 2023-02-07 | 
         
-        
-        
         <a href="https://github.com/carpentries/instructor-training/edit/main/episodes/10-coffee.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <p>Estimated time <i aria-hidden="true" data-feather="clock"></i> 0 minutes </p>
 <div class="text-end">
@@ -3562,8 +3544,6 @@ environment.</li>
 your screen to give your eyes a rest.</p></section><section id="aio-11-practice-teaching"><p>Content from <a href="11-practice-teaching.html">Teaching is a Skill</a></p>
 <hr>
 <p> Last updated on 2023-02-07 | 
-        
-        
         
         <a href="https://github.com/carpentries/instructor-training/edit/main/episodes/11-practice-teaching.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <p>Estimated time <i aria-hidden="true" data-feather="clock"></i> 60 minutes </p>
@@ -3662,12 +3642,12 @@ opportunity to practice in front of an experienced instructor as part of
 your instructor training checkout. In addition, Carpentries Instructors
 always teach in pairs (or more), giving you the opportunity to learn by
 observing and to get feedback from your fellow instructors.</p>
-<div id="callout1" class="callout callout">
+<div id="reading-it-is-not-enough" class="callout callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
 <div id="reading-it-is-not-enough" class="callout-inner">
-<h3 class="callout-title">Reading It Is Not Enough<a class="anchor" aria-label="anchor" href="#callout1"></a>
+<h3 class="callout-title">Reading It Is Not Enough<a class="anchor" aria-label="anchor" href="#reading-it-is-not-enough"></a>
 </h3>
 <div class="callout-content">
 <p>Several research studies (in <a href="../files/papers/fincher-warrens-questions-2007.pdf">2007</a>, <a href="../files/papers/fincher-stories-change-2012.pdf">2012</a>, and <a href="../files/papers/barker-practice-adoption-2015.pdf">2015</a>) have
@@ -3753,12 +3733,12 @@ about the person giving it than the person receiving it.</li>
 <li>There are always positives along with the negatives. Save your
 favorites to review regularly!</li>
 </ul>
-<div id="discussion1" class="callout discussion">
+<div id="giving-feedback" class="callout discussion">
 <div class="callout-square">
 <i class="callout-icon" data-feather="message-circle"></i>
 </div>
 <div id="giving-feedback" class="callout-inner">
-<h3 class="callout-title">Giving Feedback<a class="anchor" aria-label="anchor" href="#discussion1"></a>
+<h3 class="callout-title">Giving Feedback<a class="anchor" aria-label="anchor" href="#giving-feedback"></a>
 </h3>
 <div class="callout-content">
 <p>We will start by observing some examples of teaching and providing
@@ -3777,12 +3757,12 @@ and English here: <a href="https://www.youtube.com/watch?v=jxgMVwQamO0" class="e
 </div>
 <p>Now that you have had some practice observing teaching and giving
 feedback, let us practice with each other.</p>
-<div id="discussion2" class="callout discussion">
+<div id="sharing-feedback" class="callout discussion">
 <div class="callout-square">
 <i class="callout-icon" data-feather="message-circle"></i>
 </div>
 <div id="sharing-feedback" class="callout-inner">
-<h3 class="callout-title">Sharing Feedback<a class="anchor" aria-label="anchor" href="#discussion2"></a>
+<h3 class="callout-title">Sharing Feedback<a class="anchor" aria-label="anchor" href="#sharing-feedback"></a>
 </h3>
 <div class="callout-content">
 <p>The prep time for this exercise is intentionally short – the point is
@@ -3834,12 +3814,12 @@ Etherpad.</li>
 </div>
 </div>
 </div>
-<div id="discussion3" class="callout discussion">
+<div id="using-feedback" class="callout discussion">
 <div class="callout-square">
 <i class="callout-icon" data-feather="message-circle"></i>
 </div>
 <div id="using-feedback" class="callout-inner">
-<h3 class="callout-title">Using Feedback<a class="anchor" aria-label="anchor" href="#discussion3"></a>
+<h3 class="callout-title">Using Feedback<a class="anchor" aria-label="anchor" href="#using-feedback"></a>
 </h3>
 <div class="callout-content">
 <p>Look back at the feedback you received on your teaching. How do you
@@ -3883,9 +3863,7 @@ and expectations.</li>
 </div>
 </section></section><section id="aio-12-homework"><p>Content from <a href="12-homework.html">End Part 2 and Homework</a></p>
 <hr>
-<p> Last updated on 2023-02-07 | 
-        
-        
+<p> Last updated on 2023-08-01 | 
         
         <a href="https://github.com/carpentries/instructor-training/edit/main/episodes/12-homework.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <p>Estimated time <i aria-hidden="true" data-feather="clock"></i> 20 minutes </p>
@@ -3940,62 +3918,63 @@ organizing and running workshops. When you arrive for the next part, we
 will ask you to add one question about our operations to a list. We will
 then do our best to answer all of those questions during the
 day.</p></li>
-<li><p>Prepare for the <a href="17-live/">live coding exercises</a>. If
-you have not already done so per the pre-workshop instructions, pick an
-episode from an existing Software Carpentry, Data Carpentry, or Library
-Carpentry lesson and read through it carefully. In the next two parts,
-you will use this to practice live coding/participatory instruction for
-3 minutes. Remember, imperfect presentations can generate useful
-feedback! If you have not yet selected an episode to focus on and would
-like a recommendation, consider one of the following:</p></li>
+<li><p>Prepare for the <a href="https://carpentries.github.io/instructor-training/17-live.html" class="external-link">live
+coding exercises</a>. If you have not already done so per the
+pre-workshop instructions, pick an episode from an existing Software
+Carpentry, Data Carpentry, or Library Carpentry lesson and read through
+it carefully. In the next two parts, you will use this to practice live
+coding/participatory instruction for 3 minutes. Remember, imperfect
+presentations can generate useful feedback! If you have not yet selected
+an episode to focus on and would like a recommendation, consider one of
+the following:</p></li>
 </ol>
 <ul>
 <li>
 <p>Data Carpentry</p>
 <ul>
-<li><a href="https://datacarpentry.org/OpenRefine-ecology-lesson/02-exploring-data/index.html" class="external-link">Faceting
+<li><a href="https://datacarpentry.org/OpenRefine-ecology-lesson/02-exploring-data.html" class="external-link">Faceting
 and Clustering in OpenRefine</a></li>
-<li><a href="https://datacarpentry.org/sql-ecology-lesson/01-sql-basic-queries/" class="external-link">Basic
+<li><a href="https://datacarpentry.org/sql-ecology-lesson/01-sql-basic-queries.html" class="external-link">Basic
 Queries in SQL</a></li>
 <li><a href="https://datacarpentry.org/R-ecology-lesson/02-starting-with-data.html" class="external-link">Starting
 with Data in R</a></li>
-<li><a href="https://datacarpentry.org/python-ecology-lesson/02-starting-with-data/" class="external-link">Starting
+<li><a href="https://datacarpentry.org/python-ecology-lesson/02-starting-with-data.html" class="external-link">Starting
 with Data in Python</a></li>
 </ul>
 </li>
 <li>
 <p>Library Carpentry</p>
 <ul>
-<li><a href="https://librarycarpentry.github.io/lc-shell/03-working-with-files-and-folders/index.html" class="external-link">Working
+<li><a href="https://librarycarpentry.github.io/lc-shell/03-working-with-files-and-folders.html" class="external-link">Working
 with Files and Directories in the Unix Shell</a></li>
-<li><a href="https://librarycarpentry.github.io/lc-open-refine/04-faceting-and-filtering/index.html" class="external-link">Faceting
+<li><a href="https://librarycarpentry.github.io/lc-open-refine/04-faceting-and-filtering.html" class="external-link">Faceting
 and filtering in Open Refine</a></li>
-<li><a href="https://librarycarpentry.github.io/lc-python-intro/12-for-loops/index.html" class="external-link">For
+<li><a href="https://librarycarpentry.github.io/lc-python-intro/12-for-loops.html" class="external-link">For
 loops in Python</a></li>
 </ul>
 </li>
 <li>
 <p>Software Carpentry</p>
 <ul>
-<li><a href="https://swcarpentry.github.io/shell-novice/03-create/" class="external-link">Working
+<li><a href="https://swcarpentry.github.io/shell-novice/03-create.html" class="external-link">Working
 with Files and Directories in the Unix Shell</a></li>
-<li><a href="https://swcarpentry.github.io/git-novice/04-changes/" class="external-link">Tracking
+<li><a href="https://swcarpentry.github.io/git-novice/04-changes.html" class="external-link">Tracking
 Changes in Git</a></li>
-<li><a href="https://swcarpentry.github.io/sql-novice-survey/01-select/" class="external-link">Selecting
+<li><a href="https://swcarpentry.github.io/sql-novice-survey/01-select.html" class="external-link">Selecting
 Data in SQL</a></li>
-<li><a href="https://swcarpentry.github.io/python-novice-inflammation/05-loop/" class="external-link">Repeating
+<li><a href="https://swcarpentry.github.io/python-novice-inflammation/05-loop.html" class="external-link">Repeating
 Actions with Loops in Python</a></li>
-<li><a href="https://swcarpentry.github.io/r-novice-gapminder/05-data-structures-part2/" class="external-link">Exploring
+<li><a href="https://swcarpentry.github.io/r-novice-gapminder/05-data-structures-part2.html" class="external-link">Exploring
 Data Frames in R</a></li>
 </ul>
 </li>
 </ul>
-<div id="discussion1" class="callout discussion">
+<div id="feedback" class="callout discussion">
 <div class="callout-square">
 <i class="callout-icon" data-feather="message-circle"></i>
 </div>
 <div id="feedback" class="callout-inner">
-<h3 class="callout-title">Feedback<a class="anchor" aria-label="anchor" href="#discussion1"></a>
+<h3 class="callout-title">Feedback<a class="anchor" aria-label="anchor" href="#feedback"></a>
 </h3>
 <div class="callout-content">
 <p>The Trainer(s) will ask for feedback on the day in some form.</p>
@@ -4003,12 +3982,12 @@ Data Frames in R</a></li>
 </div>
 </div>
 </div>
-<div id="discussion2" class="callout discussion">
+<div id="reflection-exercise" class="callout discussion">
 <div class="callout-square">
 <i class="callout-icon" data-feather="message-circle"></i>
 </div>
 <div id="reflection-exercise" class="callout-inner">
-<h3 class="callout-title">Reflection Exercise<a class="anchor" aria-label="anchor" href="#discussion2"></a>
+<h3 class="callout-title">Reflection Exercise<a class="anchor" aria-label="anchor" href="#reflection-exercise"></a>
 </h3>
 <div class="callout-content">
 <p>Before we wrap up for the day, take 5 minutes to think over
@@ -4024,6 +4003,7 @@ starting point:</p>
 <li>write a paragraph or “journal” entry about your experience of the
 training so far</li>
 <li>write down one thing that struck you the most</li>
+<li>write down one thing or topic that you want to learn more about</li>
 </ul>
 <p>This exercise should take about 10 minutes.</p>
 </div>
@@ -4048,8 +4028,6 @@ and teaching practices.</li>
 </div></section><section id="aio-13-second-welcome"><p>Content from <a href="13-second-welcome.html">Welcome Back</a></p>
 <hr>
 <p> Last updated on 2023-02-07 | 
-        
-        
         
         <a href="https://github.com/carpentries/instructor-training/edit/main/episodes/13-second-welcome.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <p>Estimated time <i aria-hidden="true" data-feather="clock"></i> 10 minutes </p>
@@ -4118,12 +4096,12 @@ feedback. In the final sections of the workshop, we will conclude our
 training with a discussion about workshop logistics that will help you
 in preparing to teach your first workshop and become involved in The
 Carpentries community.</p>
-<div id="discussion1" class="callout discussion">
+<div id="questions" class="callout discussion">
 <div class="callout-square">
 <i class="callout-icon" data-feather="message-circle"></i>
 </div>
 <div id="questions" class="callout-inner">
-<h3 class="callout-title">Questions<a class="anchor" aria-label="anchor" href="#discussion1"></a>
+<h3 class="callout-title">Questions<a class="anchor" aria-label="anchor" href="#questions"></a>
 </h3>
 <div class="callout-content">
 <p>At the end of part 2, we asked you to read some resources about the
@@ -4159,9 +4137,7 @@ they can immediately put to use and be enthusiastic about it.</li>
 </div>
 </div></section><section id="aio-14-checkout"><p>Content from <a href="14-checkout.html">Getting Started on Instructor Certification</a></p>
 <hr>
-<p> Last updated on 2023-02-07 | 
-        
-        
+<p> Last updated on 2023-08-01 | 
         
         <a href="https://github.com/carpentries/instructor-training/edit/main/episodes/14-checkout.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <p>Estimated time <i aria-hidden="true" data-feather="clock"></i> 30 minutes </p>
@@ -4213,16 +4189,16 @@ training to complete checkout. If you need more time, 3-month extensions
 may be requested by emailing <a href="../mailto:instructor.training@carpentries.org">instructor.training@carpentries.org</a>.
 Extensions may be granted for any reason up to 1 year from your training
 date.</p>
-<div id="discussion1" class="callout discussion">
+<div id="be-the-expert-checkout-q-a" class="callout discussion">
 <div class="callout-square">
 <i class="callout-icon" data-feather="message-circle"></i>
 </div>
 <div id="be-the-expert-checkout-q-a" class="callout-inner">
-<h3 class="callout-title">Be The Expert: Checkout Q &amp; A<a class="anchor" aria-label="anchor" href="#discussion1"></a>
+<h3 class="callout-title">Be The Expert: Checkout Q &amp; A<a class="anchor" aria-label="anchor" href="#be-the-expert-checkout-q-a"></a>
 </h3>
 <div class="callout-content">
 <p>In small groups, read and discuss one of the three checkout
-procedures described on this page: <a href="checkout.html">https://carpentries.github.io/instructor-training/checkout/index.html</a>
+procedures described on this page: <a href="checkout.html">https://carpentries.github.io/instructor-training/checkout</a>
 Make notes in the Etherpad:</p>
 <ul>
 <li>What points do you think it is most important or helpful for people
@@ -4235,12 +4211,12 @@ stage of the process.</li>
 </div>
 </div>
 </div>
-<div id="discussion2" class="callout discussion">
+<div id="schedule-a-discussion-or-demo" class="callout discussion">
 <div class="callout-square">
 <i class="callout-icon" data-feather="message-circle"></i>
 </div>
 <div id="schedule-a-discussion-or-demo" class="callout-inner">
-<h3 class="callout-title">Schedule a Discussion or Demo<a class="anchor" aria-label="anchor" href="#discussion2"></a>
+<h3 class="callout-title">Schedule a Discussion or Demo<a class="anchor" aria-label="anchor" href="#schedule-a-discussion-or-demo"></a>
 </h3>
 <div class="callout-content">
 <p>Visit the discussion Etherpad to sign up for a session: <a href="https://pad.carpentries.org/community-discussions" class="external-link">https://pad.carpentries.org/community-discussions</a>
@@ -4301,8 +4277,6 @@ event.</li>
 </section></section><section id="aio-15-carpentries"><p>Content from <a href="15-carpentries.html">The Carpentries: How We Operate</a></p>
 <hr>
 <p> Last updated on 2023-02-07 | 
-        
-        
         
         <a href="https://github.com/carpentries/instructor-training/edit/main/episodes/15-carpentries.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <p>Estimated time <i aria-hidden="true" data-feather="clock"></i> 45 minutes </p>
@@ -4456,12 +4430,12 @@ recruit and orient volunteers who will support you in implementing The
 Carpentries values and practices. <strong>We do expect you to have at
 least one co-Instructor and helpers</strong>, even if they are not
 certified instructors.</p>
-<div id="callout1" class="callout callout">
+<div id="local-support" class="callout callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
 <div id="local-support" class="callout-inner">
-<h3 class="callout-title">Local Support<a class="anchor" aria-label="anchor" href="#callout1"></a>
+<h3 class="callout-title">Local Support<a class="anchor" aria-label="anchor" href="#local-support"></a>
 </h3>
 <div class="callout-content">
 <p>There is a helpful list for planning here in the handbook <a href="https://docs.carpentries.org/topic_folders/hosts_instructors/hosts_instructors_checklist.html#helper-checklist" class="external-link">Helper
@@ -4508,12 +4482,12 @@ The Carpentries Incubator or Carpentries Labs.</p>
 has built up around it. Many of the words we use have common meanings
 that are interchangeable elsewhere, but have come to mean very specific
 things in our community.</p>
-<div id="discussion1" class="callout discussion">
+<div id="test-yourself" class="callout discussion">
 <div class="callout-square">
 <i class="callout-icon" data-feather="message-circle"></i>
 </div>
 <div id="test-yourself" class="callout-inner">
-<h3 class="callout-title">Test yourself!<a class="anchor" aria-label="anchor" href="#discussion1"></a>
+<h3 class="callout-title">Test yourself!<a class="anchor" aria-label="anchor" href="#test-yourself"></a>
 </h3>
 <div class="callout-content">
 <p>As a class or in groups, see how many of the following terms you can
@@ -4577,12 +4551,12 @@ first workshop</li>
 legal landscape, our policies and procedures are likely to change. Be
 sure to check back for policy changes, and keep in touch on our <a href="https://carpentries.org/connect/" class="external-link">communications channels</a> to
 stay abreast of the latest updates!</p>
-<div id="callout2" class="callout callout">
+<div id="teaching-opportunities-local-and-global" class="callout callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
 <div id="teaching-opportunities-local-and-global" class="callout-inner">
-<h3 class="callout-title">Teaching Opportunities: Local and Global<a class="anchor" aria-label="anchor" href="#callout2"></a>
+<h3 class="callout-title">Teaching Opportunities: Local and Global<a class="anchor" aria-label="anchor" href="#teaching-opportunities-local-and-global"></a>
 </h3>
 <div class="callout-content">
 <p>Many Instructors aim to teach within a local community and do not
@@ -4603,12 +4577,12 @@ how best to support your efforts.</p>
 </div>
 </div>
 </div>
-<div id="discussion2" class="callout discussion">
+<div id="explain-to-a-partner" class="callout discussion">
 <div class="callout-square">
 <i class="callout-icon" data-feather="message-circle"></i>
 </div>
 <div id="explain-to-a-partner" class="callout-inner">
-<h3 class="callout-title">Explain to a partner<a class="anchor" aria-label="anchor" href="#discussion2"></a>
+<h3 class="callout-title">Explain to a partner<a class="anchor" aria-label="anchor" href="#explain-to-a-partner"></a>
 </h3>
 <div class="callout-content">
 <p>With a partner, take turns asking and answering the question: “I want
@@ -4655,12 +4629,12 @@ a difference. Your efforts, small and large, will combine with theirs to
 make the work of this organisation possible.</p>
 <p>Whatever your interests or strengths, we hope you will find a place
 where you can grow with us!</p>
-<div id="discussion3" class="callout discussion">
+<div id="community-roles" class="callout discussion">
 <div class="callout-square">
 <i class="callout-icon" data-feather="message-circle"></i>
 </div>
 <div id="community-roles" class="callout-inner">
-<h3 class="callout-title">Community Roles<a class="anchor" aria-label="anchor" href="#discussion3"></a>
+<h3 class="callout-title">Community Roles<a class="anchor" aria-label="anchor" href="#community-roles"></a>
 </h3>
 <div class="callout-content">
 <p>Select one role from the list below that interests you. Using the the
@@ -4710,12 +4684,12 @@ in)?</p>
 space!) or other events when announced</li>
 <li>Explore taking on one of the Roles identified above</li>
 </ul>
-<div id="discussion4" class="callout discussion">
+<div id="get-connected" class="callout discussion">
 <div class="callout-square">
 <i class="callout-icon" data-feather="message-circle"></i>
 </div>
 <div id="get-connected" class="callout-inner">
-<h3 class="callout-title">Get Connected<a class="anchor" aria-label="anchor" href="#discussion4"></a>
+<h3 class="callout-title">Get Connected<a class="anchor" aria-label="anchor" href="#get-connected"></a>
 </h3>
 <div class="callout-content">
 <p>Take a couple of minutes to sign up for The Carpentries channels you
@@ -4751,8 +4725,6 @@ for teaching and hosting workshops</a> is provided in <a href="https://docs.carp
 <hr>
 <p> Last updated on 2023-02-07 | 
         
-        
-        
         <a href="https://github.com/carpentries/instructor-training/edit/main/episodes/16-coffee.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <p>Estimated time <i aria-hidden="true" data-feather="clock"></i> 0 minutes </p>
 <div class="text-end">
@@ -4761,9 +4733,7 @@ for teaching and hosting workshops</a> is provided in <a href="https://docs.carp
 <p>Take a break. If you can, move around and look at something away from
 your screen to give your eyes a rest.</p></section><section id="aio-17-live"><p>Content from <a href="17-live.html">Live Coding is a Skill</a></p>
 <hr>
-<p> Last updated on 2023-02-07 | 
-        
-        
+<p> Last updated on 2023-08-01 | 
         
         <a href="https://github.com/carpentries/instructor-training/edit/main/episodes/17-live.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <p>Estimated time <i aria-hidden="true" data-feather="clock"></i> 65 minutes </p>
@@ -4785,7 +4755,7 @@ practicing ourselves and providing feedback for each other.</p>
 <div class="inner">
 <h3 class="card-title">Questions</h3>
 <ul>
-<li>Why do we teach programming using participatory live coding?</li>
+<li>Why do we teach using participatory live coding?</li>
 </ul>
 </div>
 </div>
@@ -4816,12 +4786,12 @@ learners are strongly encouraged to “code-along” with the instructor. We
 refer to the practice of having the instructor live code and the
 learners code along as “participatory live coding” or, less formally,
 ‘code-along sessions’.</p>
-<div id="challenge1" class="callout challenge">
+<div id="anticipate-the-impact" class="callout challenge">
 <div class="callout-square">
 <i class="callout-icon" data-feather="zap"></i>
 </div>
 <div id="anticipate-the-impact" class="callout-inner">
-<h3 class="callout-title">Anticipate the Impact<a class="anchor" aria-label="anchor" href="#challenge1"></a>
+<h3 class="callout-title">Anticipate the Impact<a class="anchor" aria-label="anchor" href="#anticipate-the-impact"></a>
 </h3>
 <div class="callout-content">
 <p>List some advantages and challenges of participatory live coding from
@@ -4837,7 +4807,7 @@ both a learner’s and an instructor’s point of view in the Etherpad.</p>
   Show me the solution
   </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <p>Some advantages are:</p>
 <ul>
@@ -4898,12 +4868,12 @@ Alternatively, mistakes made by the Instructor or learners can offer
 useful opportunities to learn about and positively frame
 errors.</p></li>
 </ul>
-<div id="challenge2" class="callout challenge">
+<div id="compare-and-contrast" class="callout challenge">
 <div class="callout-square">
 <i class="callout-icon" data-feather="zap"></i>
 </div>
 <div id="compare-and-contrast" class="callout-inner">
-<h3 class="callout-title">Compare and Contrast<a class="anchor" aria-label="anchor" href="#challenge2"></a>
+<h3 class="callout-title">Compare and Contrast<a class="anchor" aria-label="anchor" href="#compare-and-contrast"></a>
 </h3>
 <div class="callout-content">
 <p>Watch this first participatory live coding demo video: <a href="https://youtu.be/bXxBeNkKmJE" class="external-link">https://youtu.be/bXxBeNkKmJE</a> and
@@ -4928,7 +4898,7 @@ these videos.</p>
   Show me the solution
   </h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
 <div class="accordion-body">
 <p>The instructor will lead a discussion about the videos and your
 feedback on them, making sure that the points of the Top Ten Tips below
@@ -5011,12 +4981,12 @@ was fun’ after something worked well is a good start.</li>
 </ol>
 <p>Read more in <a href="https://doi.org/10.1371/journal.pcbi.1008090" class="external-link">Ten quick tips for
 teaching with participatory live-coding</a></p>
-<div id="discussion1" class="callout discussion">
+<div id="practice-teaching" class="callout discussion">
 <div class="callout-square">
 <i class="callout-icon" data-feather="message-circle"></i>
 </div>
 <div id="practice-teaching" class="callout-inner">
-<h3 class="callout-title">Practice Teaching<a class="anchor" aria-label="anchor" href="#discussion1"></a>
+<h3 class="callout-title">Practice Teaching<a class="anchor" aria-label="anchor" href="#practice-teaching"></a>
 </h3>
 <div class="callout-content">
 <ol style="list-style-type: decimal">
@@ -5058,8 +5028,6 @@ opportunities.</li>
 </section></section><section id="aio-18-preparation"><p>Content from <a href="18-preparation.html">Preparing to Teach</a></p>
 <hr>
 <p> Last updated on 2023-02-07 | 
-        
-        
         
         <a href="https://github.com/carpentries/instructor-training/edit/main/episodes/18-preparation.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <p>Estimated time <i aria-hidden="true" data-feather="clock"></i> 45 minutes </p>
@@ -5116,12 +5084,12 @@ to the audience usually has much more serious consequences for learning
 and morale. When you prepare to teach, we therefore suggest setting
 aside time <em>before</em> deeply reviewing your technical content to
 <strong>plan your approach to instruction</strong>.</p>
-<div id="callout1" class="callout callout">
+<div id="a-note-on-cutting" class="callout callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
 <div id="a-note-on-cutting" class="callout-inner">
-<h3 class="callout-title">A note on cutting<a class="anchor" aria-label="anchor" href="#callout1"></a>
+<h3 class="callout-title">A note on cutting<a class="anchor" aria-label="anchor" href="#a-note-on-cutting"></a>
 </h3>
 <div class="callout-content">
 <p>This episode is a common place to Trainers to cut while preparing to
@@ -5145,12 +5113,12 @@ you are not able to fully explore in your classroom. It can be helpful
 to reserve time to think through ways in which learners’ experiences and
 needs may be similar to or different from your own, or from each
 others.</p>
-<figure><img src="../fig/instructor-training-program.png" alt="A tree diagram of Carpentries instruction and audience in which Instructor Trainers teach Instructors and Instructors teach Learners" class="figure mx-auto d-block"></figure><div id="discussion1" class="callout discussion">
+<figure><img src="../fig/instructor-training-program.png" alt="A tree diagram of Carpentries instruction and audience in which Instructor Trainers teach Instructors and Instructors teach Learners" class="figure mx-auto d-block"></figure><div id="imagine-a-learner" class="callout discussion">
 <div class="callout-square">
 <i class="callout-icon" data-feather="message-circle"></i>
 </div>
 <div id="imagine-a-learner" class="callout-inner">
-<h3 class="callout-title">Imagine a Learner<a class="anchor" aria-label="anchor" href="#discussion1"></a>
+<h3 class="callout-title">Imagine a Learner<a class="anchor" aria-label="anchor" href="#imagine-a-learner"></a>
 </h3>
 <div class="callout-content">
 <p>Take a moment to silently imagine a learner who might attend your
@@ -5198,12 +5166,12 @@ should be basic and uncomplicated. These might include words like
 words like “design,” “evaluate,” or “break down” because these imply
 more complex cognitive actions even where the focal content is the
 same.</p>
-<div id="discussion2" class="callout discussion">
+<div id="evaluate-learning-objectives" class="callout discussion">
 <div class="callout-square">
 <i class="callout-icon" data-feather="message-circle"></i>
 </div>
 <div id="evaluate-learning-objectives" class="callout-inner">
-<h3 class="callout-title">Evaluate Learning Objectives<a class="anchor" aria-label="anchor" href="#discussion2"></a>
+<h3 class="callout-title">Evaluate Learning Objectives<a class="anchor" aria-label="anchor" href="#evaluate-learning-objectives"></a>
 </h3>
 <div class="callout-content">
 <p>Select one learning objective from the episode you’ve used for
@@ -5260,12 +5228,12 @@ or <strong>metacognition</strong>, is especially key to supporting
 continued learning beyond the classroom. However, not all lessons have
 checkpoints built in where such progress is made clear. Where they do,
 they can pass unnoticed in the absence of focused recognition.</p>
-<div id="discussion3" class="callout discussion">
+<div id="where-are-your-checkpoints" class="callout discussion">
 <div class="callout-square">
 <i class="callout-icon" data-feather="message-circle"></i>
 </div>
 <div id="where-are-your-checkpoints" class="callout-inner">
-<h3 class="callout-title">Where are your Checkpoints?<a class="anchor" aria-label="anchor" href="#discussion3"></a>
+<h3 class="callout-title">Where are your Checkpoints?<a class="anchor" aria-label="anchor" href="#where-are-your-checkpoints"></a>
 </h3>
 <div class="callout-content">
 <p>Have a look at your learning objective again and identify
@@ -5278,12 +5246,12 @@ achieved.</p>
 <p>Now that you have identified one point where formative assessment may
 be useful, take a moment to consider how it might be used most
 effectively.</p>
-<div id="discussion4" class="callout discussion">
+<div id="assessment-is-for-everyone" class="callout discussion">
 <div class="callout-square">
 <i class="callout-icon" data-feather="message-circle"></i>
 </div>
 <div id="assessment-is-for-everyone" class="callout-inner">
-<h3 class="callout-title">Assessment is for Everyone<a class="anchor" aria-label="anchor" href="#discussion4"></a>
+<h3 class="callout-title">Assessment is for Everyone<a class="anchor" aria-label="anchor" href="#assessment-is-for-everyone"></a>
 </h3>
 <div class="callout-content">
 <p>How might you apply formative assessment to:<br>
@@ -5308,13 +5276,13 @@ re-focus attention. Formative assessments can also be used preemptively:
 if you start a class with a question and everyone can answer it
 correctly, then you can safely skip the part of the lecture in which you
 were going to explain something that your learners already know.</p>
-<div id="callout2" class="callout callout">
+<div id="do-you-understand-is-ineffective-as-a-formative-assessment" class="callout callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
 <div id="do-you-understand-is-ineffective-as-a-formative-assessment" class="callout-inner">
 <h3 class="callout-title">“Do You Understand?” is Ineffective as a
-Formative Assessment<a class="anchor" aria-label="anchor" href="#callout2"></a>
+Formative Assessment<a class="anchor" aria-label="anchor" href="#do-you-understand-is-ineffective-as-a-formative-assessment"></a>
 </h3>
 <div class="callout-content">
 <p>Learners are often reluctant to admit when they do not understand.
@@ -5408,12 +5376,12 @@ keep the same, and what will you do differently? Just a few moments of
 reflective practice with prior feedback will go a long way towards
 building your skill as a teacher and making each workshop you teach
 better than the last.</p>
-<div id="callout3" class="callout callout">
+<div id="repetition-vs.-reflective-practice" class="callout callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
 <div id="repetition-vs.-reflective-practice" class="callout-inner">
-<h3 class="callout-title">Repetition vs. Reflective Practice<a class="anchor" aria-label="anchor" href="#callout3"></a>
+<h3 class="callout-title">Repetition vs. Reflective Practice<a class="anchor" aria-label="anchor" href="#repetition-vs.-reflective-practice"></a>
 </h3>
 <div class="callout-content">
 <p>The idea that ten thousand hours of practice will make someone an
@@ -5438,12 +5406,12 @@ independent preparation steps described here can be carried out
 collaboratively or at least in good company. In addition, we will talk
 about how to prepare with your team to create a cohesive classroom
 experience in a later episode.</p>
-<div id="discussion5" class="callout discussion">
+<div id="minute-cards-revisited" class="callout discussion">
 <div class="callout-square">
 <i class="callout-icon" data-feather="message-circle"></i>
 </div>
 <div id="minute-cards-revisited" class="callout-inner">
-<h3 class="callout-title">Minute Cards Revisited<a class="anchor" aria-label="anchor" href="#discussion5"></a>
+<h3 class="callout-title">Minute Cards Revisited<a class="anchor" aria-label="anchor" href="#minute-cards-revisited"></a>
 </h3>
 <div class="callout-content">
 <p>Use your sticky notes to write minute cards as discussed <a href="06-feedback.html#minute-cards">in part 1</a>.</p>
@@ -5473,8 +5441,6 @@ is achieved.</li>
 <hr>
 <p> Last updated on 2023-02-07 | 
         
-        
-        
         <a href="https://github.com/carpentries/instructor-training/edit/main/episodes/19-lunch.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <p>Estimated time <i aria-hidden="true" data-feather="clock"></i> 0 minutes </p>
 <div class="text-end">
@@ -5484,8 +5450,6 @@ is achieved.</li>
 your screen to give your eyes a rest.</p></section><section id="aio-20-performance"><p>Content from <a href="20-performance.html">More Practice Live Coding</a></p>
 <hr>
 <p> Last updated on 2023-02-07 | 
-        
-        
         
         <a href="https://github.com/carpentries/instructor-training/edit/main/episodes/20-performance.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <p>Estimated time <i aria-hidden="true" data-feather="clock"></i> 45 minutes </p>
@@ -5521,12 +5485,12 @@ changes to how we teach based on the feedback of others.</p>
 </div>
 </div>
 </div>
-<div id="discussion1" class="callout discussion">
+<div id="round-two" class="callout discussion">
 <div class="callout-square">
 <i class="callout-icon" data-feather="message-circle"></i>
 </div>
 <div id="round-two" class="callout-inner">
-<h3 class="callout-title">Round Two<a class="anchor" aria-label="anchor" href="#discussion1"></a>
+<h3 class="callout-title">Round Two<a class="anchor" aria-label="anchor" href="#round-two"></a>
 </h3>
 <div class="callout-content">
 <ol style="list-style-type: decimal">
@@ -5564,9 +5528,7 @@ minutes for teaching, and 10 minutes for de-brief.</p>
 </div>
 </div></section><section id="aio-21-management"><p>Content from <a href="21-management.html">Working With Your Team</a></p>
 <hr>
-<p> Last updated on 2023-02-07 | 
-        
-        
+<p> Last updated on 2023-08-01 | 
         
         <a href="https://github.com/carpentries/instructor-training/edit/main/episodes/21-management.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <p>Estimated time <i aria-hidden="true" data-feather="clock"></i> 70 minutes </p>
@@ -5724,12 +5686,12 @@ view in The Carpentries Handbook</a> is a great template.</p>
 or teaching other content, your learners should be actively working
 along with you wherever possible. Similarly, when receiving assistance,
 learners should be doing the typing whenever possible.</p>
-<div id="callout1" class="callout callout">
+<div id="learners-use-their-own-machines" class="callout callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
 <div id="learners-use-their-own-machines" class="callout-inner">
-<h3 class="callout-title">Learners Use Their Own Machines<a class="anchor" aria-label="anchor" href="#callout1"></a>
+<h3 class="callout-title">Learners Use Their Own Machines<a class="anchor" aria-label="anchor" href="#learners-use-their-own-machines"></a>
 </h3>
 <div class="callout-content">
 <p>Learners tell us that it is important to them to leave the workshop
@@ -5771,12 +5733,12 @@ you need help.”).<br>
 In online workshops, Zoom has a green “✓” and red “x” under “reactions”
 that may be used in place of sticky notes.</li>
 </ul>
-<div id="callout2" class="callout callout">
+<div id="accessibility-of-sticky-notes" class="callout callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
 <div id="accessibility-of-sticky-notes" class="callout-inner">
-<h3 class="callout-title">Accessibility of Sticky Notes<a class="anchor" aria-label="anchor" href="#callout2"></a>
+<h3 class="callout-title">Accessibility of Sticky Notes<a class="anchor" aria-label="anchor" href="#accessibility-of-sticky-notes"></a>
 </h3>
 <div class="callout-content">
 <p>Once upon a time, Carpentries workshops commonly used red and green
@@ -5832,12 +5794,12 @@ need to be attentive to this range in your learners’ prior skill level.
 under these circumstances! But with a solid team approach you will be
 surprised at how many people can come away feeling satisfied that their
 time was well spent.</p>
-<div id="discussion1" class="callout discussion">
+<div id="what-are-the-challenges" class="callout discussion">
 <div class="callout-square">
 <i class="callout-icon" data-feather="message-circle"></i>
 </div>
 <div id="what-are-the-challenges" class="callout-inner">
-<h3 class="callout-title">What Are the Challenges?<a class="anchor" aria-label="anchor" href="#discussion1"></a>
+<h3 class="callout-title">What Are the Challenges?<a class="anchor" aria-label="anchor" href="#what-are-the-challenges"></a>
 </h3>
 <div class="callout-content">
 <p>What are some of the challenges you might expect when teaching
@@ -5911,12 +5873,12 @@ individual may take it upon themselves to respond, team coordination can
 both lighten the load and improve the outcome. We encourage you to
 <strong>discuss an approach to managing Code of Conduct violations with
 your instructional team in advance</strong>.</p>
-<div id="discussion2" class="callout discussion">
+<div id="know-your-resources" class="callout discussion">
 <div class="callout-square">
 <i class="callout-icon" data-feather="message-circle"></i>
 </div>
 <div id="know-your-resources" class="callout-inner">
-<h3 class="callout-title">Know Your Resources<a class="anchor" aria-label="anchor" href="#discussion2"></a>
+<h3 class="callout-title">Know Your Resources<a class="anchor" aria-label="anchor" href="#know-your-resources"></a>
 </h3>
 <div class="callout-content">
 <ol style="list-style-type: decimal">
@@ -5956,12 +5918,12 @@ across our community through <a href="https://carpentries.org/blog/2021/06/code-
 of a Code of Conduct Facilitator role</a>. Follow our communications
 channels to learn about additional opportunities for training in this
 area.</p>
-<div id="callout3" class="callout callout">
+<div id="know-your-local-laws-and-policies" class="callout callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
 <div id="know-your-local-laws-and-policies" class="callout-inner">
-<h3 class="callout-title">Know your Local Laws and Policies<a class="anchor" aria-label="anchor" href="#callout3"></a>
+<h3 class="callout-title">Know your Local Laws and Policies<a class="anchor" aria-label="anchor" href="#know-your-local-laws-and-policies"></a>
 </h3>
 <div class="callout-content">
 <p>While all Carpentries-branded workshops fall under The Carpentries
@@ -5983,12 +5945,12 @@ workshop you are taking right now is because they get to meet other
 Carpentries trainees – people with shared interests and enthusiasm for
 sharing technical skills. Yes, there is work to do when planning a
 workshop! But there is much to be gained in sharing the process.</p>
-<div id="challenge1" class="callout challenge">
+<div id="teaching-together---nuts-and-bolts" class="callout challenge">
 <div class="callout-square">
 <i class="callout-icon" data-feather="zap"></i>
 </div>
 <div id="teaching-together---nuts-and-bolts" class="callout-inner">
-<h3 class="callout-title">Teaching Together - Nuts and Bolts<a class="anchor" aria-label="anchor" href="#challenge1"></a>
+<h3 class="callout-title">Teaching Together - Nuts and Bolts<a class="anchor" aria-label="anchor" href="#teaching-together---nuts-and-bolts"></a>
 </h3>
 <div class="callout-content">
 <p>With a partner, imagine that you are planning a workshop together.
@@ -6013,7 +5975,7 @@ exercise should take about 10 minutes.</p>
   Co-Instruction Suggestions
   </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <ul>
 <li><p>Coordinate who is teaching what, sufficiently in advance that
@@ -6075,13 +6037,13 @@ The Carpentries to keep track of your workshop and to credit everyone on
 your team.</p>
 <p>The Carpentries maintains a template repository for these websites
 with step-by-step instructions for setting them up.</p>
-<div id="discussion3" class="callout discussion">
+<div id="practice-with-the-carpentries-infrastructure" class="callout discussion">
 <div class="callout-square">
 <i class="callout-icon" data-feather="message-circle"></i>
 </div>
 <div id="practice-with-the-carpentries-infrastructure" class="callout-inner">
 <h3 class="callout-title">Practice With The Carpentries
-Infrastructure<a class="anchor" aria-label="anchor" href="#discussion3"></a>
+Infrastructure<a class="anchor" aria-label="anchor" href="#practice-with-the-carpentries-infrastructure"></a>
 </h3>
 <div class="callout-content">
 <p>For this activity, your Trainer will put you in groups, but you may
@@ -6109,12 +6071,12 @@ to bypass your browser cache: <a href="https://en.wikipedia.org/wiki/Wikipedia:B
 </div>
 </div>
 <p>You may also wish to create an Etherpad for your workshop (or other
-Carpentries-related event). When you point a browser to a url at
-<code>https://pad.carpentries.org/workshop-slug</code> (e.g.,
-<code>https://pad.carpentries.org/2022-02-22-data-skills</code> for the
-example above) you will either arrive at an existing Etherpad by that
-name or a brand new Etherpad with basic Carpentries information at the
-top.</p>
+Carpentries-related event), preferably using the same workshop id used
+when creating the workshop website. When you point a browser to a url at
+<code>https://pad.carpentries.org/workshop-id</code> (e.g.,
+<code>https://pad.carpentries.org/2022-02-22-berlin</code>) you will
+either arrive at an existing Etherpad by that name or a brand new
+Etherpad with basic Carpentries information at the top.</p>
 <p>Note that there are pros and cons to using Etherpad. Pads do
 occasionally freeze or crash, so we recommend creating a backup copy.
 Otherwise, Etherpads persist indefinitely, so they may be used for
@@ -6144,8 +6106,6 @@ Carpentries Code of Conduct committee for follow-up.</li>
 <hr>
 <p> Last updated on 2023-02-07 | 
         
-        
-        
         <a href="https://github.com/carpentries/instructor-training/edit/main/episodes/22-coffee.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <p>Estimated time <i aria-hidden="true" data-feather="clock"></i> 0 minutes </p>
 <div class="text-end">
@@ -6154,9 +6114,7 @@ Carpentries Code of Conduct committee for follow-up.</li>
 <p>Take a break. If you can, move around and look at something away from
 your screen to give your eyes a rest.</p></section><section id="aio-23-introductions"><p>Content from <a href="23-introductions.html">Launches and Landings</a></p>
 <hr>
-<p> Last updated on 2023-02-14 | 
-        
-        
+<p> Last updated on 2023-08-01 | 
         
         <a href="https://github.com/carpentries/instructor-training/edit/main/episodes/23-introductions.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <p>Estimated time <i aria-hidden="true" data-feather="clock"></i> 40 minutes </p>
@@ -6222,12 +6180,12 @@ also be intimidating. Having a plan helps relieve stress and get you
 started. Even in the face of early technical issues (which is common at
 the start of a workshop), you can have a chance to reset with something
 you are comfortable and ready for.</p>
-<div id="challenge1" class="callout challenge">
+<div id="what-is-in-an-introduction" class="callout challenge">
 <div class="callout-square">
 <i class="callout-icon" data-feather="zap"></i>
 </div>
 <div id="what-is-in-an-introduction" class="callout-inner">
-<h3 class="callout-title">What is in an Introduction?<a class="anchor" aria-label="anchor" href="#challenge1"></a>
+<h3 class="callout-title">What is in an Introduction?<a class="anchor" aria-label="anchor" href="#what-is-in-an-introduction"></a>
 </h3>
 <div class="callout-content">
 <p>Get into small groups (3-4 people) and discuss the questions below.
@@ -6291,6 +6249,7 @@ objectives look like?</p>
 <li>know what will be taught</li>
 <li>understand what will be required of them</li>
 <li>believe that they can learn from the workshop</li>
+<li>be aware of the schedule</li>
 </ul>
 <p>The instructional team should:</p>
 <ul>
@@ -6334,12 +6293,12 @@ things you may want to convey include</p>
 <li>your enthusiasm for the subject</li>
 <li>your motivations for teaching</li>
 </ul>
-<div id="callout1" class="callout callout">
+<div id="introductions-for-everyone" class="callout callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
 <div id="introductions-for-everyone" class="callout-inner">
-<h3 class="callout-title">Introductions for Everyone<a class="anchor" aria-label="anchor" href="#callout1"></a>
+<h3 class="callout-title">Introductions for Everyone<a class="anchor" aria-label="anchor" href="#introductions-for-everyone"></a>
 </h3>
 <div class="callout-content">
 <p>If you’re teaching a typical Carpentries workshop, then you are
@@ -6366,12 +6325,12 @@ do take time, but even a lightweight activity makes a big difference.
 This also sets the tone for an active workshop, which can be especially
 important if your curriculum does not offer early opportunities for
 interaction.</p>
-<div id="callout2" class="callout callout">
+<div id="example-icebreaker" class="callout callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
 <div id="example-icebreaker" class="callout-inner">
-<h3 class="callout-title">Example Icebreaker<a class="anchor" aria-label="anchor" href="#callout2"></a>
+<h3 class="callout-title">Example Icebreaker<a class="anchor" aria-label="anchor" href="#example-icebreaker"></a>
 </h3>
 <div class="callout-content">
 <p>Here is one example of an icebreaker you can use: Have everyone turn
@@ -6430,12 +6389,12 @@ most cases, your learners chose to attend this workshop, but they may
 yet be unclear on whether it will be worthwhile. This is a great chance
 to get them excited about the prospect of learning what you have to
 teach!</p>
-<div id="discussion1" class="callout discussion">
+<div id="practice-your-introduction" class="callout discussion">
 <div class="callout-square">
 <i class="callout-icon" data-feather="message-circle"></i>
 </div>
 <div id="practice-your-introduction" class="callout-inner">
-<h3 class="callout-title">Practice Your Introduction<a class="anchor" aria-label="anchor" href="#discussion1"></a>
+<h3 class="callout-title">Practice Your Introduction<a class="anchor" aria-label="anchor" href="#practice-your-introduction"></a>
 </h3>
 <div class="callout-content">
 <p>Imagine you have completed instructor training and you are about to
@@ -6467,12 +6426,12 @@ important that you end your workshop on time. Even if you have not met
 your content goals, there are far more valuable ways to spend the last
 15-20 minutes of a course than squeezing in one last command or bit of
 advice.</p>
-<div id="challenge2" class="callout challenge">
+<div id="brainstorm-making-the-last-moments-count" class="callout challenge">
 <div class="callout-square">
 <i class="callout-icon" data-feather="zap"></i>
 </div>
 <div id="brainstorm-making-the-last-moments-count" class="callout-inner">
-<h3 class="callout-title">Brainstorm: Making the Last Moments Count<a class="anchor" aria-label="anchor" href="#challenge2"></a>
+<h3 class="callout-title">Brainstorm: Making the Last Moments Count<a class="anchor" aria-label="anchor" href="#brainstorm-making-the-last-moments-count"></a>
 </h3>
 <div class="callout-content">
 <p>You have made it to the end of your workshop! Everyone is exhausted
@@ -6560,8 +6519,6 @@ continued learning.</li>
 <hr>
 <p> Last updated on 2023-02-07 | 
         
-        
-        
         <a href="https://github.com/carpentries/instructor-training/edit/main/episodes/24-practices.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <p>Estimated time <i aria-hidden="true" data-feather="clock"></i> 20 minutes </p>
 <div class="text-end">
@@ -6608,12 +6565,12 @@ everything we have learned and organize these practices in terms of what
 parts of a workshop we need to be conscious of each of these strategies.
 In other words, let us put down on paper some of our mental model about
 teaching and learning, specifically in the Carpentries context.</p>
-<div id="challenge1" class="callout challenge">
+<div id="picking-up-the-pieces" class="callout challenge">
 <div class="callout-square">
 <i class="callout-icon" data-feather="zap"></i>
 </div>
 <div id="picking-up-the-pieces" class="callout-inner">
-<h3 class="callout-title">Picking up the Pieces<a class="anchor" aria-label="anchor" href="#challenge1"></a>
+<h3 class="callout-title">Picking up the Pieces<a class="anchor" aria-label="anchor" href="#picking-up-the-pieces"></a>
 </h3>
 <div class="callout-content">
 <p>Based on the content we’ve discussed throughout this workshop, add at
@@ -6634,7 +6591,7 @@ minutes.</p>
   Show me the solution
   </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
 <p>Compare your list of topics with the list below. What is missing,
 either in your list or the one below?</p>
@@ -6669,12 +6626,12 @@ either in your list or the one below?</p>
 <li>participatory live coding</li>
 <li>introductions</li>
 </ul>
-<div id="discussion1" class="callout discussion">
+<div id="organize-your-knowledge" class="callout discussion">
 <div class="callout-square">
 <i class="callout-icon" data-feather="message-circle"></i>
 </div>
 <div id="organize-your-knowledge" class="callout-inner">
-<h3 class="callout-title">Organize Your Knowledge<a class="anchor" aria-label="anchor" href="#discussion1"></a>
+<h3 class="callout-title">Organize Your Knowledge<a class="anchor" aria-label="anchor" href="#organize-your-knowledge"></a>
 </h3>
 <div class="callout-content">
 <p>Use a concept map or other visual organiser of your choice to connect
@@ -6689,12 +6646,12 @@ exercise.</p>
 </div>
 </div>
 </div>
-<div id="discussion2" class="callout discussion">
+<div id="parting-thoughts-optional" class="callout discussion">
 <div class="callout-square">
 <i class="callout-icon" data-feather="message-circle"></i>
 </div>
 <div id="parting-thoughts-optional" class="callout-inner">
-<h3 class="callout-title">Parting Thoughts (optional)<a class="anchor" aria-label="anchor" href="#discussion2"></a>
+<h3 class="callout-title">Parting Thoughts (optional)<a class="anchor" aria-label="anchor" href="#parting-thoughts-optional"></a>
 </h3>
 <div class="callout-content">
 <p>If you did not think about these issues when organizing your topics
@@ -6735,8 +6692,6 @@ important teaching practices you have learned.</li>
 <hr>
 <p> Last updated on 2023-02-07 | 
         
-        
-        
         <a href="https://github.com/carpentries/instructor-training/edit/main/episodes/25-wrap-up.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <p>Estimated time <i aria-hidden="true" data-feather="clock"></i> 10 minutes </p>
 <div class="text-end">
@@ -6773,12 +6728,12 @@ The Carpentries Core Team and help us to report to our funders.</p>
 </div>
 </div>
 </div>
-<div id="discussion1" class="callout discussion">
+<div id="one-up-one-down" class="callout discussion">
 <div class="callout-square">
 <i class="callout-icon" data-feather="message-circle"></i>
 </div>
 <div id="one-up-one-down" class="callout-inner">
-<h3 class="callout-title">One Up, One Down<a class="anchor" aria-label="anchor" href="#discussion1"></a>
+<h3 class="callout-title">One Up, One Down<a class="anchor" aria-label="anchor" href="#one-up-one-down"></a>
 </h3>
 <div class="callout-content">
 <p>Provide one up, one down feedback on the entire Instructor Training
@@ -6793,12 +6748,12 @@ the Etherpad). This is also hard, but important!</li>
 </div>
 </div>
 </div>
-<div id="discussion2" class="callout discussion">
+<div id="minute-cards-optional-alternative" class="callout discussion">
 <div class="callout-square">
 <i class="callout-icon" data-feather="message-circle"></i>
 </div>
 <div id="minute-cards-optional-alternative" class="callout-inner">
-<h3 class="callout-title">Minute Cards (optional alternative)<a class="anchor" aria-label="anchor" href="#discussion2"></a>
+<h3 class="callout-title">Minute Cards (optional alternative)<a class="anchor" aria-label="anchor" href="#minute-cards-optional-alternative"></a>
 </h3>
 <div class="callout-content">
 <p>Please use your minute cards (sticky notes or virtual) to give your
@@ -6807,12 +6762,12 @@ Trainers anonymous feedback directly.</p>
 </div>
 </div>
 </div>
-<div id="discussion3" class="callout discussion">
+<div id="post-workshop-surveys" class="callout discussion">
 <div class="callout-square">
 <i class="callout-icon" data-feather="message-circle"></i>
 </div>
 <div id="post-workshop-surveys" class="callout-inner">
-<h3 class="callout-title">Post Workshop Surveys<a class="anchor" aria-label="anchor" href="#discussion3"></a>
+<h3 class="callout-title">Post Workshop Surveys<a class="anchor" aria-label="anchor" href="#post-workshop-surveys"></a>
 </h3>
 <div class="callout-content">
 <p>Assessment is very important to us! Please take the remaining time to
@@ -6857,9 +6812,6 @@ teach.</li>
 				<p>This lesson is subject to the <a href="CODE_OF_CONDUCT.html">Code of Conduct</a></p>
         <p>
         
-	
-        
-        
         <a href="https://github.com/carpentries/instructor-training/edit/main/README.md" class="external-link">Edit on GitHub</a>
         
 	
@@ -6872,9 +6824,9 @@ teach.</li>
         <p>Materials licensed under <a href="../LICENSE.html">CC-BY 4.0</a> by the authors</p>
         
         <p><a href="https://creativecommons.org/licenses/by-sa/4.0/" class="external-link">Template licensed under CC-BY 4.0</a> by <a href="https://carpentries.org" class="external-link">The Carpentries</a></p>
-        <p>Built with <a href="https://github.com/carpentries/sandpaper/tree/0.11.13" class="external-link">sandpaper (0.11.13)</a>,
-        <a href="https://github.com/carpentries/pegboard/tree/0.4.3" class="external-link">pegboard (0.4.3)</a>,
-      and <a href="https://github.com/carpentries/varnish/tree/0.2.15" class="external-link">varnish (0.2.15)</a>.</p>
+        <p>Built with <a href="https://github.com/carpentries/sandpaper/tree/enable-search" class="external-link">sandpaper (0.12.5)</a>,
+        <a href="https://github.com/carpentries/pegboard/tree/dbc40280b29c85d25654735767c682e2f64f28a5" class="external-link">pegboard (0.5.3)</a>,
+      and <a href="https://github.com/carpentries/varnish/tree/use-search-2023" class="external-link">varnish (0.2.17)</a>.</p>
 			</div>
 		</footer>
 </div> <!-- / div.container -->
@@ -6887,17 +6839,17 @@ teach.</li>
     {
   "@context": "https://schema.org",
   "@type": "TrainingMaterial",
-  "@id": "https://preview.carpentries.org/instructor-training/instructor/aio.html",
+  "@id": "https://carpentries.github.io/instructor-training/instructor/aio.html",
   "dct:conformsTo": "https://bioschemas.org/profiles/TrainingMaterial/1.0-RELEASE",
   "description": "A Carpentries Lesson teaching foundational data and coding skills to researchers worldwide",
   "keywords": "software, data, lesson, The Carpentries",
   "name": "All in One View",
   "creativeWorkStatus": "active",
-  "url": "https://preview.carpentries.org/instructor-training/instructor/aio.html",
-  "identifier": "https://preview.carpentries.org/instructor-training/instructor/aio.html",
-  "dateCreated": "2023-03-27",
-  "dateModified": "2023-03-27",
-  "datePublished": "2023-03-27"
+  "url": "https://carpentries.github.io/instructor-training/instructor/aio.html",
+  "identifier": "https://carpentries.github.io/instructor-training/instructor/aio.html",
+  "dateCreated": "2014-11-16",
+  "dateModified": "2023-08-02",
+  "datePublished": "2023-08-02"
 }
 
   </script><script>
