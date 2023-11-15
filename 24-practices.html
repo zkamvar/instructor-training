@@ -8,7 +8,7 @@
         extensions: ["AMSmath.js","AMSsymbols.js","noErrors.js","noUndefined.js"]
       },
       tex2jax: {
-        inlineMath: [ ['$','$'], ['\\(', '\\)']],
+        inlineMath: [['\\(', '\\)']],
         displayMath: [ ['$$','$$'], ['\\[', '\\]'] ],
         processEscapes: true
       }
@@ -20,7 +20,7 @@
       <div class="large-logo">
         <img alt="The Carpentries" src="assets/images/carpentries-logo.svg"></div>
     </div>
-    <div class="selector-container ">
+    <div class="selector-container">
       
       
       <div class="dropdown">
@@ -94,9 +94,11 @@
 </aside><div class="container">
       <div class="row">
         <!-- START: inst/pkgdown/templates/navbar.html -->
-  <div id="sidebar-col" class="col-lg-4">
-    <div id="sidebar" class="sidebar">
-      <nav aria-labelledby="flush-headingEleven"><button role="button" aria-label="close menu" alt="close menu" aria-expanded="true" aria-controls="sidebar" class="collapse-toggle"><i class="search-icon" data-feather="x" role="img"></i></button>
+<div id="sidebar-col" class="col-lg-4">
+  <div id="sidebar" class="sidebar">
+      <nav aria-labelledby="flush-headingEleven"><button role="button" aria-label="close menu" alt="close menu" aria-expanded="true" aria-controls="sidebar" class="collapse-toggle">
+          <i class="search-icon" data-feather="x" role="img"></i>
+        </button>
         <div class="sidebar-inner">
           <div class="row mobile-row">
             <div class="col">
@@ -397,6 +399,7 @@
               </div>
             </div>
             <hr class="half-width resources"><a href="aio.html">See all in one page</a>
+            
 
             <hr class="d-none d-sm-block d-md-none"><div class="d-grid gap-1">
             
@@ -415,8 +418,14 @@
       </div>
       <!-- content for large screens -->
       <div class="d-none d-sm-none d-md-block">
-        <a class="chapter-link" href="23-introductions.html" rel="prev"><i aria-hidden="true" class="small-arrow" data-feather="arrow-left"></i>Previous: Launches and</a>
-        <a class="chapter-link float-end" href="25-wrap-up.html" rel="next">Next: Wrapping Up... <i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i></a>
+        <a class="chapter-link" href="23-introductions.html" rel="prev">
+          <i aria-hidden="true" class="small-arrow" data-feather="arrow-left"></i>
+          Previous: Launches and
+        </a>
+        <a class="chapter-link float-end" href="25-wrap-up.html" rel="next">
+          Next: Wrapping Up... 
+          <i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i>
+        </a>
       </div>
       <hr></nav><main id="main-content" class="main-content"><div class="container lesson-content">
         <h1>Putting It Together</h1>
@@ -493,7 +502,7 @@ minutes.</p>
   Show me the solution
   </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
 <p>Compare your list of topics with the list below. What is missing,
 either in your list or the one below?</p>
@@ -595,8 +604,14 @@ important teaching practices you have learned.</li>
       </div>
       <!-- content for large screens -->
       <div class="d-none d-sm-none d-md-block">
-        <a class="chapter-link" href="23-introductions.html" rel="prev"><i aria-hidden="true" class="small-arrow" data-feather="arrow-left"></i>Previous: Launches and</a>
-        <a class="chapter-link float-end" href="25-wrap-up.html" rel="next">Next: Wrapping Up... <i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i></a>
+        <a class="chapter-link" href="23-introductions.html" rel="prev">
+          <i aria-hidden="true" class="small-arrow" data-feather="arrow-left"></i>
+          Previous: Launches and
+        </a>
+        <a class="chapter-link float-end" href="25-wrap-up.html" rel="next">
+          Next: Wrapping Up... 
+          <i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i>
+        </a>
       </div>
     </nav></div> <!-- / div.primary-content.col-xs-12 -->
 <!-- END:   inst/pkgdown/templates/content-instructor.html-->
@@ -618,9 +633,9 @@ important teaching practices you have learned.</li>
         <p>Materials licensed under <a href="LICENSE.html">CC-BY 4.0</a> by the authors</p>
         
         <p><a href="https://creativecommons.org/licenses/by-sa/4.0/" class="external-link">Template licensed under CC-BY 4.0</a> by <a href="https://carpentries.org" class="external-link">The Carpentries</a></p>
-        <p>Built with <a href="https://github.com/carpentries/sandpaper/tree/enable-search" class="external-link">sandpaper (0.12.5)</a>,
+        <p>Built with <a href="https://github.com/carpentries/sandpaper/tree/enable-search" class="external-link">sandpaper (0.14.1.9000)</a>,
         <a href="https://github.com/carpentries/pegboard/tree/e7e5c4555e13a09bf9f53ec903dc9c0a462ed789" class="external-link">pegboard (0.7.1.9000)</a>,
-      and <a href="https://github.com/carpentries/varnish/tree/use-search-2023" class="external-link">varnish (0.2.17)</a>.</p>
+      and <a href="https://github.com/carpentries/varnish/tree/use-search-2023" class="external-link">varnish (0.3.3.9000)</a>.</p>
 			</div>
 		</footer></div> <!-- / div.container -->
 	<div id="to-top">
@@ -642,7 +657,7 @@ important teaching practices you have learned.</li>
   "identifier": "https://zkamvar.github.io/instructor-training/24-practices.html",
   "dateCreated": "2014-11-16",
   "dateModified": "2023-08-02",
-  "datePublished": "2023-11-14"
+  "datePublished": "2023-11-15"
 }
 
   </script><script>
