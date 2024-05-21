@@ -5,7 +5,6 @@
 <meta charset="utf-8">
 <title>Instructor Training: All in One View</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta property="og:title" content="All in One View">
 <link rel="stylesheet" type="text/css" href="../assets/styles.css">
 <script src="../assets/scripts.js" type="text/javascript"></script><!-- mathjax --><script type="text/x-mathjax-config">
     MathJax.Hub.Config({
@@ -21,7 +20,7 @@
         processEscapes: true
       }
     });
-    </script><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha256-nvJJv9wWKEm88qvoQl9ekL2J+k/RWIsaSScxxlsrv8k=" crossorigin="anonymous"></script><!-- search --><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/autocomplete.js/0.38.0/autocomplete.jquery.min.js" integrity="sha512-GU9ayf+66Xx2TmpxqJpliWbT5PiGYxpaG8rfnBEk1LL8l1KGkRShhngwdXK1UgqhAzWpZHSiYPc09/NwDQIGyg==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous"></script><!-- Responsive Favicon for The Carpentries --><link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
+    </script><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha256-nvJJv9wWKEm88qvoQl9ekL2J+k/RWIsaSScxxlsrv8k=" crossorigin="anonymous"></script><!-- Responsive Favicon for The Carpentries --><link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
 <link rel="manifest" href="../site.webmanifest">
@@ -30,7 +29,7 @@
 <meta name="theme-color" content="#ffffff">
 </head>
 <body>
-    <header id="top" class="navbar navbar-expand-md navbar-light bg-white top-nav carpentries"><a class="visually-hidden-focusable skip-link" href="#main-content">Skip to main content</a>
+    <header id="top" class="navbar navbar-expand-md navbar-light bg-white top-nav carpentries"><a class="visually-hidden-focusable skip-link" href="#main-content"></a>
   <div class="container-fluid top-nav-container">
     <div class="col-md-6">
       <div class="large-logo">
@@ -42,18 +41,18 @@
       
       <div class="dropdown">
         <button class="btn btn-secondary dropdown-toggle bordered-button" type="button" id="dropdownMenu1" data-bs-toggle="dropdown" aria-expanded="false">
-          <i aria-hidden="true" class="icon" data-feather="eye"></i> Instructor View <i data-feather="chevron-down"></i>
+          <i aria-hidden="true" class="icon" data-feather="eye"></i>  <i data-feather="chevron-down"></i>
         </button>
         <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-<li><button class="dropdown-item" type="button" onclick="window.location.href='../aio.html';">Learner View</button></li>
+<li><button class="dropdown-item" type="button" onclick="window.location.href='../aio.html';"></button></li>
         </ul>
 </div>
     </div>
   </div>
-  <hr></header><nav class="navbar navbar-expand-xl navbar-light bg-white bottom-nav carpentries" aria-label="Main Navigation"><div class="container-fluid nav-container">
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <hr></header><nav class="navbar navbar-expand-xl navbar-light bg-white bottom-nav carpentries" aria-label=""><div class="container-fluid nav-container">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="">
       <span class="navbar-toggler-icon"></span>
-      <span class="menu-title">Menu</span>
+      <span class="menu-title"></span>
     </button>
     <div class="nav-logo">
       <img class="small-logo" alt="The Carpentries" src="../assets/images/carpentries-logo-sm.svg">
@@ -62,7 +61,9 @@
       Instructor Training
     </div>
     <div class="search-icon-sm">
-      <i role="img" aria-label="search button" data-feather="search"></i>
+      <!-- TODO: do not show until we have search
+        <i role="img" aria-label="" data-feather="search"></i>
+      -->
     </div>
     <div class="desktop-nav">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -72,17 +73,17 @@
           </span>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="../instructor/key-points.html">Key Points</a>
+          <a class="nav-link" href="../instructor/key-points.html"></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="../instructor/instructor-notes.html">Instructor Notes</a>
+          <a class="nav-link" href="../instructor/instructor-notes.html"></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="../instructor/images.html">Extract All Images</a>
+          <a class="nav-link" href="../instructor/images.html"></a>
         </li>
         <li class="nav-item dropdown">
           <button class="nav-link dropdown-toggle" id="navbarDropdown" data-bs-toggle="dropdown" aria-expanded="false">
-            More <i data-feather="chevron-down"></i>
+             <i data-feather="chevron-down"></i>
           </button>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 <li><a class="dropdown-item" href="icebreakers.html">Icebreakers</a></li>
@@ -100,19 +101,17 @@
 </li>
       </ul>
 </div>
+    <!--
     <form class="d-flex col-md-2 search-form">
-      <input type="search" class="form-control me-sm-2 search" aria-label="Toggle navigation" name="search-input" data-search-index="../search.json" id="search-input" placeholder="Search for" autocomplete="on"><button class="btn btn-outline-success tablet-search-button" type="submit">
-        <i class="search-icon" data-feather="search" role="img" aria-label="search button"></i>
-      </button>
-      <!-- <input class="form-control me-2 searchbox" name="search-input" id="search-input" data-search-index="../search.json" type="search" placeholder="Search" aria-label="Search"> --> 
-      <!-- <button class="btn btn-outline-success tablet-search-button" type="submit"><i class="search-icon" data-feather="search" role="img" aria-label="search button"></i></button> -->
-      <!-- <fieldset disabled> -->
-      <!-- <input class="form-control me-2 searchbox" type="search" placeholder="Search" aria-label="Search"> --> 
-      <!--   <button class="btn btn-outline-success tablet-search-button"  type="submit"> -->
-      <!--     <i class="search-icon" data-feather="search" role="img" aria-label="search button"></i> -->
-      <!--   </button> -->
-      <!-- </fieldset> -->
+      <fieldset disabled>
+      <input class="form-control me-2 searchbox" type="search" placeholder="" aria-label="">
+        <button class="btn btn-outline-success tablet-search-button"  type="submit">
+          <i class="search-icon" data-feather="search" role="img" aria-label=""></i>
+        </button>
+      </fieldset>
     </form>
+    -->
+    <a class="btn btn-primary" href="../aio.html" role="button" aria-label=""></a>
   </div>
 <!--/div.container-fluid -->
 </nav><div class="col-md-12 mobile-title">
@@ -123,7 +122,7 @@
     %
   </div>
   <div class="progress carpentries">
-    <div class="progress-bar carpentries" role="progressbar" style="width: %" aria-valuenow="" aria-label="Lesson Progress" aria-valuemin="0" aria-valuemax="100">
+    <div class="progress-bar carpentries" role="progressbar" style="width: %" aria-valuenow="" aria-label="" aria-valuemin="0" aria-valuemax="100">
     </div>
   </div>
 </aside><div class="container">
@@ -131,7 +130,7 @@
         <!-- START: inst/pkgdown/templates/navbar.html -->
 <div id="sidebar-col" class="col-lg-4">
   <div id="sidebar" class="sidebar">
-      <nav aria-labelledby="flush-headingEleven"><button role="button" aria-label="close menu" alt="close menu" aria-expanded="true" aria-controls="sidebar" class="collapse-toggle">
+      <nav aria-labelledby="flush-headingEleven"><button role="button" aria-label="" alt="" aria-expanded="true" aria-controls="sidebar" class="collapse-toggle" data-collapse=" " data-episodes=" ">
           <i class="search-icon" data-feather="x" role="img"></i>
         </button>
         <div class="sidebar-inner">
@@ -142,12 +141,12 @@
                   <div class="accordion-item">
                     <h2 class="accordion-header" id="flush-headingNine">
                       <button class="accordion-button collapsed" id="instructor" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseNine" aria-expanded="false" aria-controls="flush-collapseNine">
-                        <i id="eye" aria-hidden="true" class="icon" data-feather="eye"></i> Instructor View
+                        <i id="eye" aria-hidden="true" class="icon" data-feather="eye"></i> 
                       </button>
                     </h2>
                     <div id="flush-collapseNine" class="accordion-collapse collapse" aria-labelledby="flush-headingNine" data-bs-parent="#accordionFlush2">
                       <div class="accordion-body">
-                        <a href="../aio.html">Learner View</a>
+                        <a href="../aio.html"></a>
                       </div>
                     </div>
                   </div>
@@ -168,7 +167,7 @@
 
               <button id="chapters" class="accordion-button show" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEleven" aria-expanded="false" aria-controls="flush-collapseEleven">
                 <h2 class="accordion-header chapters" id="flush-headingEleven">
-                  EPISODES
+                  
                 </h2>
               </button>
               <div id="flush-collapseEleven" class="accordion-collapse show collapse" aria-labelledby="flush-headingEleven" data-bs-parent="#accordionFlush11">
@@ -495,20 +494,20 @@
               <div class="accordion-item">
                 <h2 class="accordion-header" id="flush-headingTwelve">
                   <button class="accordion-button collapsed" id="resources" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwelve" aria-expanded="false" aria-controls="flush-collapseTwelve">
-                    RESOURCES
+                    
                   </button>
                 </h2>
                 <div id="flush-collapseTwelve" class="accordion-collapse collapse" aria-labelledby="flush-headingTwelve" data-bs-parent="#accordionFlush12">
                   <div class="accordion-body">
                     <ul>
 <li>
-                        <a href="../instructor/key-points.html">Key Points</a>
+                        <a href="../instructor/key-points.html"></a>
                       </li>
                       <li>
-                        <a href="../instructor/instructor-notes.html">Instructor Notes</a>
+                        <a href="../instructor/instructor-notes.html"></a>
                       </li>
                       <li>
-                        <a href="../instructor/images.html">Extract All Images</a>
+                        <a href="../instructor/images.html"></a>
                       </li>
                       <li><a href="icebreakers.html">Icebreakers</a></li>
 <li><a href="additional_exercises.html">Additional Exercises</a></li>
@@ -527,7 +526,7 @@
               </div>
             </div>
             <hr class="half-width resources">
-<a href="../instructor/aio.html">See all in one page</a>
+<a href="../instructor/aio.html"></a>
             
 
             <hr class="d-none d-sm-block d-md-none">
@@ -552,12 +551,11 @@
         
 <section id="aio-01-welcome"><p>Content from <a href="01-welcome.html">Welcome</a></p>
 <hr>
-<p> Last updated on 2023-08-02 | 
+<p>
         
-        <a href="https://github.com/carpentries/instructor-training/edit/main/episodes/01-welcome.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
-<p>Estimated time <i aria-hidden="true" data-feather="clock"></i> 30 minutes </p>
+        <a href="https://github.com/carpentries/instructor-training/edit/main/episodes/01-welcome.md" class="external-link"> <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
-          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right"> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand=" " data-collapse=" ">  <i aria-hidden="true" data-feather="plus"></i></button>
         </div>
 <div class="overview card">
 <h2 class="card-header">Overview</h2>
@@ -599,7 +597,7 @@ an incident.</li>
   Instructor Note
   </h3>
 </button>
-<div id="collapseInstructor1" class="accordion-collapse collapse" data-bs-parent="#accordionInstructor1" aria-labelledby="headingInstructor1">
+<div id="collapseInstructor1" class="accordion-collapse collapse" aria-labelledby="headingInstructor1" data-bs-parent="#accordionInstructor1">
 <div class="accordion-body">
 <p>In an online workshop, ensure that captions are turned on.</p>
 </div>
@@ -892,12 +890,11 @@ quickly assessed with a multiple choice question.</li>
 </div>
 </section></section><section id="aio-02-practice-learning"><p>Content from <a href="02-practice-learning.html">Building Skill With Practice</a></p>
 <hr>
-<p> Last updated on 2023-08-02 | 
+<p>
         
-        <a href="https://github.com/carpentries/instructor-training/edit/main/episodes/02-practice-learning.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
-<p>Estimated time <i aria-hidden="true" data-feather="clock"></i> 60 minutes </p>
+        <a href="https://github.com/carpentries/instructor-training/edit/main/episodes/02-practice-learning.md" class="external-link"> <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
-          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right"> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand=" " data-collapse=" ">  <i aria-hidden="true" data-feather="plus"></i></button>
         </div>
 <p>We will now get started with a discussion of how learning works. We
 will begin with some key concepts from educational research and identify
@@ -1581,22 +1578,20 @@ learners and instructors.</li>
 </div>
 </section></section><section id="aio-03-coffee"><p>Content from <a href="03-coffee.html">Part 1 Break</a></p>
 <hr>
-<p> Last updated on 2023-08-02 | 
+<p>
         
-        <a href="https://github.com/carpentries/instructor-training/edit/main/episodes/03-coffee.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
-<p>Estimated time <i aria-hidden="true" data-feather="clock"></i> 0 minutes </p>
+        <a href="https://github.com/carpentries/instructor-training/edit/main/episodes/03-coffee.md" class="external-link"> <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
-          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right"> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand=" " data-collapse=" ">  <i aria-hidden="true" data-feather="plus"></i></button>
         </div>
 <p>Take a break. If you can, move around and look at something away from
 your screen to give your eyes a rest.</p></section><section id="aio-04-expertise"><p>Content from <a href="04-expertise.html">Expertise and Instruction</a></p>
 <hr>
-<p> Last updated on 2023-08-02 | 
+<p>
         
-        <a href="https://github.com/carpentries/instructor-training/edit/main/episodes/04-expertise.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
-<p>Estimated time <i aria-hidden="true" data-feather="clock"></i> 45 minutes </p>
+        <a href="https://github.com/carpentries/instructor-training/edit/main/episodes/04-expertise.md" class="external-link"> <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
-          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right"> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand=" " data-collapse=" ">  <i aria-hidden="true" data-feather="plus"></i></button>
         </div>
 <section id="examining-your-expertise"><h2 class="section-heading">Examining Your Expertise<a class="anchor" aria-label="anchor" href="#examining-your-expertise"></a>
 </h2>
@@ -1883,7 +1878,7 @@ unclear?</li>
   Show me the solution
   </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <p>It is hard to break the habit of trying to convince learners that a
 task is “easy”! A few alternatives might include statements like:</p>
@@ -2004,12 +1999,11 @@ awareness gaps.</li>
 </div>
 </section></section><section id="aio-05-memory"><p>Content from <a href="05-memory.html">Memory and Cognitive Load</a></p>
 <hr>
-<p> Last updated on 2023-08-02 | 
+<p>
         
-        <a href="https://github.com/carpentries/instructor-training/edit/main/episodes/05-memory.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
-<p>Estimated time <i aria-hidden="true" data-feather="clock"></i> 45 minutes </p>
+        <a href="https://github.com/carpentries/instructor-training/edit/main/episodes/05-memory.md" class="external-link"> <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
-          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right"> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand=" " data-collapse=" ">  <i aria-hidden="true" data-feather="plus"></i></button>
         </div>
 <p>In our final topic in how people learn (and therefore, how we can be
 more effective instructors), we will be learning more about human
@@ -2436,12 +2430,11 @@ memory.</li>
 </div>
 </section></section><section id="aio-06-feedback"><p>Content from <a href="06-feedback.html">Building Skill With Feedback</a></p>
 <hr>
-<p> Last updated on 2023-08-02 | 
+<p>
         
-        <a href="https://github.com/carpentries/instructor-training/edit/main/episodes/06-feedback.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
-<p>Estimated time <i aria-hidden="true" data-feather="clock"></i> 20 minutes </p>
+        <a href="https://github.com/carpentries/instructor-training/edit/main/episodes/06-feedback.md" class="external-link"> <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
-          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right"> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand=" " data-collapse=" ">  <i aria-hidden="true" data-feather="plus"></i></button>
         </div>
 <p>We use formative assessment of learners during workshops to help
 track learners’ progress and adjust our approach to teaching the content
@@ -2643,22 +2636,20 @@ end of your workshop.</li>
 </div>
 </section></section><section id="aio-07-lunch"><p>Content from <a href="07-lunch.html">End Part 1</a></p>
 <hr>
-<p> Last updated on 2023-08-02 | 
+<p>
         
-        <a href="https://github.com/carpentries/instructor-training/edit/main/episodes/07-lunch.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
-<p>Estimated time <i aria-hidden="true" data-feather="clock"></i> 0 minutes </p>
+        <a href="https://github.com/carpentries/instructor-training/edit/main/episodes/07-lunch.md" class="external-link"> <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
-          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right"> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand=" " data-collapse=" ">  <i aria-hidden="true" data-feather="plus"></i></button>
         </div>
 <p>Take a break. If you can, move around and look at something away from
 your screen to give your eyes a rest.</p></section><section id="aio-08-motivation"><p>Content from <a href="08-motivation.html">Motivation and Demotivation</a></p>
 <hr>
-<p> Last updated on 2023-08-02 | 
+<p>
         
-        <a href="https://github.com/carpentries/instructor-training/edit/main/episodes/08-motivation.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
-<p>Estimated time <i aria-hidden="true" data-feather="clock"></i> 60 minutes </p>
+        <a href="https://github.com/carpentries/instructor-training/edit/main/episodes/08-motivation.md" class="external-link"> <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
-          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right"> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand=" " data-collapse=" ">  <i aria-hidden="true" data-feather="plus"></i></button>
         </div>
 <section id="motivation-matters"><h2 class="section-heading">Motivation Matters<a class="anchor" aria-label="anchor" href="#motivation-matters"></a>
 </h2>
@@ -2989,7 +2980,7 @@ at what you learned trying to solve it!</li>
   Show me the solution
   </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
 <ol style="list-style-type: decimal">
 <li>Effort-based.</li>
@@ -3132,12 +3123,11 @@ stay motivated.</li>
 </div>
 </section></section><section id="aio-09-eia"><p>Content from <a href="09-eia.html">Equity, Inclusion, and Accessibility</a></p>
 <hr>
-<p> Last updated on 2023-08-02 | 
+<p>
         
-        <a href="https://github.com/carpentries/instructor-training/edit/main/episodes/09-eia.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
-<p>Estimated time <i aria-hidden="true" data-feather="clock"></i> 40 minutes </p>
+        <a href="https://github.com/carpentries/instructor-training/edit/main/episodes/09-eia.md" class="external-link"> <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
-          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right"> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand=" " data-collapse=" ">  <i aria-hidden="true" data-feather="plus"></i></button>
         </div>
 <section id="a-positive-environment-for-all"><h2 class="section-heading">A Positive Environment for All<a class="anchor" aria-label="anchor" href="#a-positive-environment-for-all"></a>
 </h2>
@@ -3584,22 +3574,20 @@ environment.</li>
 </div>
 </section></section><section id="aio-10-coffee"><p>Content from <a href="10-coffee.html">Part 2 Break</a></p>
 <hr>
-<p> Last updated on 2023-08-02 | 
+<p>
         
-        <a href="https://github.com/carpentries/instructor-training/edit/main/episodes/10-coffee.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
-<p>Estimated time <i aria-hidden="true" data-feather="clock"></i> 0 minutes </p>
+        <a href="https://github.com/carpentries/instructor-training/edit/main/episodes/10-coffee.md" class="external-link"> <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
-          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right"> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand=" " data-collapse=" ">  <i aria-hidden="true" data-feather="plus"></i></button>
         </div>
 <p>Take a break. If you can, move around and look at something away from
 your screen to give your eyes a rest.</p></section><section id="aio-11-practice-teaching"><p>Content from <a href="11-practice-teaching.html">Teaching is a Skill</a></p>
 <hr>
-<p> Last updated on 2023-08-02 | 
+<p>
         
-        <a href="https://github.com/carpentries/instructor-training/edit/main/episodes/11-practice-teaching.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
-<p>Estimated time <i aria-hidden="true" data-feather="clock"></i> 60 minutes </p>
+        <a href="https://github.com/carpentries/instructor-training/edit/main/episodes/11-practice-teaching.md" class="external-link"> <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
-          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right"> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand=" " data-collapse=" ">  <i aria-hidden="true" data-feather="plus"></i></button>
         </div>
 <p>So far, we have focused on how we can be effective instructors by
 understanding how people learn and how to create a positive classroom
@@ -3917,12 +3905,11 @@ and expectations.</li>
 </div>
 </section></section><section id="aio-12-homework"><p>Content from <a href="12-homework.html">End Part 2 and Homework</a></p>
 <hr>
-<p> Last updated on 2023-08-02 | 
+<p>
         
-        <a href="https://github.com/carpentries/instructor-training/edit/main/episodes/12-homework.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
-<p>Estimated time <i aria-hidden="true" data-feather="clock"></i> 20 minutes </p>
+        <a href="https://github.com/carpentries/instructor-training/edit/main/episodes/12-homework.md" class="external-link"> <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
-          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right"> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand=" " data-collapse=" ">  <i aria-hidden="true" data-feather="plus"></i></button>
         </div>
 <p>In the first half of this workshop we have focused on understanding
 some core findings of pedagogical research about how the learning
@@ -4083,12 +4070,11 @@ and teaching practices.</li>
 </div>
 </div></section><section id="aio-13-second-welcome"><p>Content from <a href="13-second-welcome.html">Welcome Back</a></p>
 <hr>
-<p> Last updated on 2023-08-02 | 
+<p>
         
-        <a href="https://github.com/carpentries/instructor-training/edit/main/episodes/13-second-welcome.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
-<p>Estimated time <i aria-hidden="true" data-feather="clock"></i> 10 minutes </p>
+        <a href="https://github.com/carpentries/instructor-training/edit/main/episodes/13-second-welcome.md" class="external-link"> <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
-          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right"> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand=" " data-collapse=" ">  <i aria-hidden="true" data-feather="plus"></i></button>
         </div>
 <p>To refresh as we enter the second half of this workshop, the goal of
 this training is prepare you to be a certified Carpentries Instructor,
@@ -4194,12 +4180,11 @@ they can immediately put to use and be enthusiastic about it.</li>
 </div>
 </div></section><section id="aio-14-checkout"><p>Content from <a href="14-checkout.html">Getting Started on Instructor Certification</a></p>
 <hr>
-<p> Last updated on 2023-08-02 | 
+<p>
         
-        <a href="https://github.com/carpentries/instructor-training/edit/main/episodes/14-checkout.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
-<p>Estimated time <i aria-hidden="true" data-feather="clock"></i> 30 minutes </p>
+        <a href="https://github.com/carpentries/instructor-training/edit/main/episodes/14-checkout.md" class="external-link"> <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
-          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right"> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand=" " data-collapse=" ">  <i aria-hidden="true" data-feather="plus"></i></button>
         </div>
 <p>In this short episode, we will take a moment to review the actions
 you will need to take after this training to become a fully certified
@@ -4335,12 +4320,11 @@ event.</li>
 </div>
 </section></section><section id="aio-15-carpentries"><p>Content from <a href="15-carpentries.html">The Carpentries: How We Operate</a></p>
 <hr>
-<p> Last updated on 2023-08-02 | 
+<p>
         
-        <a href="https://github.com/carpentries/instructor-training/edit/main/episodes/15-carpentries.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
-<p>Estimated time <i aria-hidden="true" data-feather="clock"></i> 45 minutes </p>
+        <a href="https://github.com/carpentries/instructor-training/edit/main/episodes/15-carpentries.md" class="external-link"> <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
-          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right"> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand=" " data-collapse=" ">  <i aria-hidden="true" data-feather="plus"></i></button>
         </div>
 <p>In becoming a certified <a href="https://carpentries.org/instructors/" class="external-link">Carpentries Instructor</a>,
 you are also becoming part of a community of like-minded volunteers. Our
@@ -4786,22 +4770,20 @@ for teaching and hosting workshops</a> is provided in <a href="https://docs.carp
 </div>
 </section></section><section id="aio-16-coffee"><p>Content from <a href="16-coffee.html">Part 3 Break</a></p>
 <hr>
-<p> Last updated on 2023-08-02 | 
+<p>
         
-        <a href="https://github.com/carpentries/instructor-training/edit/main/episodes/16-coffee.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
-<p>Estimated time <i aria-hidden="true" data-feather="clock"></i> 0 minutes </p>
+        <a href="https://github.com/carpentries/instructor-training/edit/main/episodes/16-coffee.md" class="external-link"> <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
-          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right"> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand=" " data-collapse=" ">  <i aria-hidden="true" data-feather="plus"></i></button>
         </div>
 <p>Take a break. If you can, move around and look at something away from
 your screen to give your eyes a rest.</p></section><section id="aio-17-live"><p>Content from <a href="17-live.html">Live Coding is a Skill</a></p>
 <hr>
-<p> Last updated on 2023-08-02 | 
+<p>
         
-        <a href="https://github.com/carpentries/instructor-training/edit/main/episodes/17-live.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
-<p>Estimated time <i aria-hidden="true" data-feather="clock"></i> 65 minutes </p>
+        <a href="https://github.com/carpentries/instructor-training/edit/main/episodes/17-live.md" class="external-link"> <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
-          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right"> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand=" " data-collapse=" ">  <i aria-hidden="true" data-feather="plus"></i></button>
         </div>
 <p>One of the cornerstones of The Carpentries teaching is live coding:
 <em>instructors do not use slides to teach coding</em>, but work through
@@ -5093,12 +5075,11 @@ opportunities.</li>
 </div>
 </section></section><section id="aio-18-preparation"><p>Content from <a href="18-preparation.html">Preparing to Teach</a></p>
 <hr>
-<p> Last updated on 2023-08-02 | 
+<p>
         
-        <a href="https://github.com/carpentries/instructor-training/edit/main/episodes/18-preparation.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
-<p>Estimated time <i aria-hidden="true" data-feather="clock"></i> 45 minutes </p>
+        <a href="https://github.com/carpentries/instructor-training/edit/main/episodes/18-preparation.md" class="external-link"> <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
-          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right"> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand=" " data-collapse=" ">  <i aria-hidden="true" data-feather="plus"></i></button>
         </div>
 <section id="building-teaching-skill"><h2 class="section-heading">Building Teaching Skill<a class="anchor" aria-label="anchor" href="#building-teaching-skill"></a>
 </h2>
@@ -5510,22 +5491,20 @@ is achieved.</li>
 </div>
 </section></section><section id="aio-19-lunch"><p>Content from <a href="19-lunch.html">End Part 3</a></p>
 <hr>
-<p> Last updated on 2023-08-02 | 
+<p>
         
-        <a href="https://github.com/carpentries/instructor-training/edit/main/episodes/19-lunch.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
-<p>Estimated time <i aria-hidden="true" data-feather="clock"></i> 0 minutes </p>
+        <a href="https://github.com/carpentries/instructor-training/edit/main/episodes/19-lunch.md" class="external-link"> <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
-          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right"> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand=" " data-collapse=" ">  <i aria-hidden="true" data-feather="plus"></i></button>
         </div>
 <p>Take a break. If you can, move around and look at something away from
 your screen to give your eyes a rest.</p></section><section id="aio-20-performance"><p>Content from <a href="20-performance.html">More Practice Live Coding</a></p>
 <hr>
-<p> Last updated on 2023-08-02 | 
+<p>
         
-        <a href="https://github.com/carpentries/instructor-training/edit/main/episodes/20-performance.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
-<p>Estimated time <i aria-hidden="true" data-feather="clock"></i> 45 minutes </p>
+        <a href="https://github.com/carpentries/instructor-training/edit/main/episodes/20-performance.md" class="external-link"> <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
-          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right"> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand=" " data-collapse=" ">  <i aria-hidden="true" data-feather="plus"></i></button>
         </div>
 <p>Continuing our theme of developing practical Carpentries teaching
 skills, this section provides another chance to practice live coding, to
@@ -5600,12 +5579,11 @@ minutes for teaching, and 10 minutes for de-brief.</p>
 </div>
 </div></section><section id="aio-21-management"><p>Content from <a href="21-management.html">Working With Your Team</a></p>
 <hr>
-<p> Last updated on 2023-08-02 | 
+<p>
         
-        <a href="https://github.com/carpentries/instructor-training/edit/main/episodes/21-management.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
-<p>Estimated time <i aria-hidden="true" data-feather="clock"></i> 70 minutes </p>
+        <a href="https://github.com/carpentries/instructor-training/edit/main/episodes/21-management.md" class="external-link"> <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
-          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right"> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand=" " data-collapse=" ">  <i aria-hidden="true" data-feather="plus"></i></button>
         </div>
 <section id="never-teach-alone"><h2 class="section-heading">Never Teach Alone<a class="anchor" aria-label="anchor" href="#never-teach-alone"></a>
 </h2>
@@ -6180,22 +6158,20 @@ Carpentries Code of Conduct committee for follow-up.</li>
 </div>
 </section></section><section id="aio-22-coffee"><p>Content from <a href="22-coffee.html">Part 4 Break</a></p>
 <hr>
-<p> Last updated on 2023-08-02 | 
+<p>
         
-        <a href="https://github.com/carpentries/instructor-training/edit/main/episodes/22-coffee.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
-<p>Estimated time <i aria-hidden="true" data-feather="clock"></i> 0 minutes </p>
+        <a href="https://github.com/carpentries/instructor-training/edit/main/episodes/22-coffee.md" class="external-link"> <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
-          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right"> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand=" " data-collapse=" ">  <i aria-hidden="true" data-feather="plus"></i></button>
         </div>
 <p>Take a break. If you can, move around and look at something away from
 your screen to give your eyes a rest.</p></section><section id="aio-23-introductions"><p>Content from <a href="23-introductions.html">Launches and Landings</a></p>
 <hr>
-<p> Last updated on 2023-08-02 | 
+<p>
         
-        <a href="https://github.com/carpentries/instructor-training/edit/main/episodes/23-introductions.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
-<p>Estimated time <i aria-hidden="true" data-feather="clock"></i> 40 minutes </p>
+        <a href="https://github.com/carpentries/instructor-training/edit/main/episodes/23-introductions.md" class="external-link"> <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
-          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right"> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand=" " data-collapse=" ">  <i aria-hidden="true" data-feather="plus"></i></button>
         </div>
 <p>When preparing to teach a workshop, it is normal to focus on the
 content. We hope that our discussions so far have also encouraged you to
@@ -6596,12 +6572,11 @@ continued learning.</li>
 </div>
 </section></section><section id="aio-24-practices"><p>Content from <a href="24-practices.html">Putting It Together</a></p>
 <hr>
-<p> Last updated on 2023-08-02 | 
+<p>
         
-        <a href="https://github.com/carpentries/instructor-training/edit/main/episodes/24-practices.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
-<p>Estimated time <i aria-hidden="true" data-feather="clock"></i> 20 minutes </p>
+        <a href="https://github.com/carpentries/instructor-training/edit/main/episodes/24-practices.md" class="external-link"> <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
-          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right"> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand=" " data-collapse=" ">  <i aria-hidden="true" data-feather="plus"></i></button>
         </div>
 <p>We are almost done with our training! At this point, we have covered
 many, many topics around teaching and learning, especially in the
@@ -6671,7 +6646,7 @@ minutes.</p>
   Show me the solution
   </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <p>Compare your list of topics with the list below. What is missing,
 either in your list or the one below?</p>
@@ -6772,12 +6747,11 @@ important teaching practices you have learned.</li>
 </div>
 </div></section><section id="aio-25-wrap-up"><p>Content from <a href="25-wrap-up.html">Wrapping Up</a></p>
 <hr>
-<p> Last updated on 2023-08-02 | 
+<p>
         
-        <a href="https://github.com/carpentries/instructor-training/edit/main/episodes/25-wrap-up.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
-<p>Estimated time <i aria-hidden="true" data-feather="clock"></i> 10 minutes </p>
+        <a href="https://github.com/carpentries/instructor-training/edit/main/episodes/25-wrap-up.md" class="external-link"> <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
-          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right"> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand=" " data-collapse=" ">  <i aria-hidden="true" data-feather="plus"></i></button>
         </div>
 <p>Just as in our technical workshops, we collect feedback at the end of
 Instructor Training. This will help your Trainers continue to develop
@@ -6894,31 +6868,28 @@ teach.</li>
 <!--/div.row-->
       		<footer class="row footer mx-md-3"><hr>
 <div class="col-md-6">
-				<p>This lesson is subject to the <a href="CODE_OF_CONDUCT.html">Code of Conduct</a></p>
+        
         <p>
         
-        <a href="https://github.com/carpentries/instructor-training/edit/main/README.md" class="external-link">Edit on GitHub</a>
+        <a href="https://github.com/carpentries/instructor-training/edit/main/README.md" class="external-link"></a>
         
 	
-        | <a href="https://github.com/carpentries/instructor-training/blob/main/CONTRIBUTING.md" class="external-link">Contributing</a> 
-        | <a href="https://github.com/carpentries/instructor-training/" class="external-link">Source</a></p>
-				<p><a href="https://github.com/carpentries/instructor-training/blob/main/CITATION" class="external-link">Cite</a> | <a href="mailto:instructor.training@carpentries.org">Contact</a> | <a href="https://carpentries.org/about/" class="external-link">About</a></p>
+        | <a href="https://github.com/carpentries/instructor-training/blob/main/CONTRIBUTING.md" class="external-link"></a>
+        | <a href="https://github.com/carpentries/instructor-training/" class="external-link"></a></p>
+				<p><a href="https://github.com/carpentries/instructor-training/blob/main/" class="external-link"></a> | <a href="mailto:instructor.training@carpentries.org"></a> | <a href="https://carpentries.org/about/" class="external-link"></a></p>
 			</div>
 			<div class="col-md-6">
         
-        <p>Materials licensed under <a href="../LICENSE.html">CC-BY 4.0</a> by the authors</p>
+        <p></p>
         
-        <p><a href="https://creativecommons.org/licenses/by-sa/4.0/" class="external-link">Template licensed under CC-BY 4.0</a> by <a href="https://carpentries.org" class="external-link">The Carpentries</a></p>
-        <p>Built with <a href="https://github.com/carpentries/sandpaper/tree/enable-search" class="external-link">sandpaper (0.14.1.9000)</a>,
-        <a href="https://github.com/carpentries/pegboard/tree/a32a7836d4455f407c3cafe8ab95edc636e5e919" class="external-link">pegboard (0.7.5)</a>,
-      and <a href="https://github.com/carpentries/varnish/tree/use-search-2023" class="external-link">varnish (0.3.3.9000)</a>.</p>
+        <p></p>
+        <p></p>
 			</div>
 		</footer>
 </div> <!-- / div.container -->
 	<div id="to-top">
 		<a href="#top">
-			<i class="search-icon" data-feather="arrow-up" role="img" aria-label="Back to top"></i><br><span class="d-none d-sm-none d-md-none d-lg-none d-xl-block">Back</span> To Top
-		</a>
+      <i class="search-icon" data-feather="arrow-up" role="img" aria-label=""></i><br><!-- <span class="d-none d-sm-none d-md-none d-lg-none d-xl-block">Back</span> To Top --></a>
 	</div>
   <script type="application/ld+json">
     {
@@ -6933,8 +6904,8 @@ teach.</li>
   "url": "https://zkamvar.github.io/instructor-training/instructor/aio.html",
   "identifier": "https://zkamvar.github.io/instructor-training/instructor/aio.html",
   "dateCreated": "2014-11-16",
-  "dateModified": "2024-05-14",
-  "datePublished": "2024-05-14"
+  "dateModified": "2024-05-21",
+  "datePublished": "2024-05-21"
 }
 
   </script><script>
